@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORE AI Innovation Award 2026 - Certificate of Excellence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F2F5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .certificate {
+            width: 100%;
+            max-width: 1000px;
+            aspect-ratio: 16 / 10;
+            background: linear-gradient(135deg, #FFFFFF 0%, #F7F8FA 100%);
+            border: 3px solid #D4AF37;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Decorative Corner Elements */
+        .certificate::before,
+        .certificate::after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .certificate::before {
+            top: -50px;
+            left: -50px;
+        }
+
+        .certificate::after {
+            bottom: -50px;
+            right: -50px;
+        }
+
+        /* Purple accent corners */
+        .accent-top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle at top-right, rgba(107, 91, 149, 0.08) 0%, transparent 70%);
+            border-radius: 0 0 0 100%;
+        }
+
+        .accent-bottom-left {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle at bottom-left, rgba(107, 91, 149, 0.08) 0%, transparent 70%);
+            border-radius: 0 100% 0 0;
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 80px;
+        }
+
+        .logo-mark {
+            width: 110px;
+            height: 110px;
+            margin-bottom: 20px;
+        }
+
+        .logo-mark img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .cert-header {
+            margin-bottom: 10px;
+        }
+
+        .cert-header .small-text {
+            font-size: 14px;
+            color: #6B5B95;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .cert-title {
+            font-family: 'Cinzel', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A2E4A;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .divider {
+            width: 150px;
+            height: 3px;
+            background: linear-gradient(to right, transparent, #D4AF37, transparent);
+            margin: 20px auto;
+        }
+
+        .cert-body {
+            font-size: 16px;
+            color: #4A4A4A;
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+
+        .recipient-name {
+            font-family: 'Cinzel', serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #1A2E4A;
+            margin: 15px 0;
+            border-bottom: 2px solid #D4AF37;
+            padding-bottom: 10px;
+        }
+
+        .award-category {
+            font-family: 'Cinzel', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #D4AF37;
+            margin: 15px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .signature-section {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #E8E8E8;
+        }
+
+        .signature-block {
+            text-align: center;
+            flex: 1;
+        }
+
+        .signature-line {
+            width: 120px;
+            height: 1px;
+            background-color: #1A2E4A;
+            margin: 40px auto 5px;
+        }
+
+        .signature-block .name {
+            font-size: 12px;
+            color: #4A4A4A;
+            font-weight: 600;
+        }
+
+        .date-seal {
+            font-size: 11px;
+            color: #6B5B95;
+            margin-top: 5px;
+        }
+
+        .seal {
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #E4C56A 0%, #D4AF37 55%, #B8860B 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #B8860B;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+            font-size: 18px;
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            color: #1A2E4A;
+            z-index: 5;
+        }
+
+        @media (max-width: 768px) {
+            .certificate {
+                aspect-ratio: auto;
+                min-height: 600px;
+                border-width: 2px;
+            }
+
+            .content {
+                padding: 40px 30px;
+            }
+
+            .cert-title {
+                font-size: 32px;
+            }
+
+            .recipient-name {
+                font-size: 24px;
+            }
+
+            .award-category {
+                font-size: 18px;
+            }
+
+            .signature-section {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .signature-block {
+                margin: 0 auto;
+            }
+
+            .seal {
+                bottom: 20px;
+                right: 20px;
+                width: 60px;
+                height: 60px;
+                font-size: 30px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .certificate {
+                max-width: 100%;
+                box-shadow: none;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <div class="accent-top-right"></div>
+        <div class="accent-bottom-left"></div>
+
+        <div class="content">
+            <div class="logo-mark">
+                <img src="../logos/ore-ai-awards-icon.svg" alt="ORE AI Innovation Award logo">
+            </div>
+
+            <div class="cert-header">
+                <div class="small-text">Presented to</div>
+            </div>
+
+            <div class="recipient-name">[RECIPIENT NAME]</div>
+
+            <div class="cert-title">Certificate of Excellence</div>
+
+            <div class="divider"></div>
+
+            <div class="cert-body">
+                For exceptional achievement in
+            </div>
+
+            <div class="award-category">[AWARD CATEGORY]</div>
+
+            <div class="cert-body">
+                at the <strong>ORE AI Innovation Award 2026</strong>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="signature-section">
+                <div class="signature-block">
+                    <div class="signature-line"></div>
+                    <div class="name">Judging Committee</div>
+                    <div class="date-seal">September 2026</div>
+                </div>
+            </div>
+
+            <div class="seal">2026</div>
+        </div>
+    </div>
+</body>
+</html>

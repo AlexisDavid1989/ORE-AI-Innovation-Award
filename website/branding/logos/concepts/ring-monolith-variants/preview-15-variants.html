@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Ring Monolith Instrument Variants</title>
+  <style>
+    :root { --bg:#0b0b0b; --panel:#151515; --line:#2a2a2a; --text:#e7deca; --muted:#ac9e7d; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Inter,'Segoe UI',sans-serif; background:radial-gradient(circle at 20% 0%, #191919 0%, #0b0b0b 55%); color:var(--text); }
+    .wrap { width:min(1320px,95vw); margin:28px auto 60px; }
+    h1 { margin:0 0 10px; font-family:Cinzel,'Times New Roman',serif; letter-spacing:2px; font-weight:600; }
+    p { margin:0 0 20px; color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px; }
+    .card h2 { margin:0 0 8px; font-size:14px; color:#d4af37; font-weight:600; }
+    .card img { width:100%; border:1px solid #222; border-radius:8px; display:block; }
+    .meta { margin-top:8px; font-size:12px; color:var(--muted); }
+    @media (max-width:1100px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:760px) { .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class='wrap'>
+    <h1>Ring-Monolith Instrument Variants (15)</h1>
+    <p>All variants keep the ORE-style dual ring openings and add navigation/measurement cues with different intensity levels.</p>
+    <div class='grid'>
+      <article class='card'><h2>01 - variant-01-subtle-compass</h2><img src='01-variant-01-subtle-compass.svg' alt='variant-01-subtle-compass'><div class='meta'>Subtle compass crosshair</div></article>
+      <article class='card'><h2>02 - variant-02-north-pointer</h2><img src='02-variant-02-north-pointer.svg' alt='variant-02-north-pointer'><div class='meta'>North pointer emphasis</div></article>
+      <article class='card'><h2>03 - variant-03-sextant-arcs</h2><img src='03-variant-03-sextant-arcs.svg' alt='variant-03-sextant-arcs'><div class='meta'>Sextant-style guide arcs</div></article>
+      <article class='card'><h2>04 - variant-04-meridian-grid</h2><img src='04-variant-04-meridian-grid.svg' alt='variant-04-meridian-grid'><div class='meta'>Meridian and parallel rings</div></article>
+      <article class='card'><h2>05 - variant-05-celestial</h2><img src='05-variant-05-celestial.svg' alt='variant-05-celestial'><div class='meta'>Celestial navigation cues</div></article>
+      <article class='card'><h2>06 - variant-06-azimuth</h2><img src='06-variant-06-azimuth.svg' alt='variant-06-azimuth'><div class='meta'>Azimuth bearing spokes</div></article>
+      <article class='card'><h2>07 - variant-07-surveyor</h2><img src='07-variant-07-surveyor.svg' alt='variant-07-surveyor'><div class='meta'>Surveyor triangulation</div></article>
+      <article class='card'><h2>08 - variant-08-logbook-scale</h2><img src='08-variant-08-logbook-scale.svg' alt='variant-08-logbook-scale'><div class='meta'>Drafting ruler marks</div></article>
+      <article class='card'><h2>09 - variant-09-gyro</h2><img src='09-variant-09-gyro.svg' alt='variant-09-gyro'><div class='meta'>Gyro dial look</div></article>
+      <article class='card'><h2>10 - variant-10-octant</h2><img src='10-variant-10-octant.svg' alt='variant-10-octant'><div class='meta'>Octant frame accents</div></article>
+      <article class='card'><h2>11 - variant-11-latitude</h2><img src='11-variant-11-latitude.svg' alt='variant-11-latitude'><div class='meta'>Latitude bands</div></article>
+      <article class='card'><h2>12 - variant-12-bearing-labels</h2><img src='12-variant-12-bearing-labels.svg' alt='variant-12-bearing-labels'><div class='meta'>N E S W marks</div></article>
+      <article class='card'><h2>13 - variant-13-keel-line</h2><img src='13-variant-13-keel-line.svg' alt='variant-13-keel-line'><div class='meta'>Ship keel analogy</div></article>
+      <article class='card'><h2>14 - variant-14-binary-nav</h2><img src='14-variant-14-binary-nav.svg' alt='variant-14-binary-nav'><div class='meta'>Binary-navigation fusion</div></article>
+      <article class='card'><h2>15 - variant-15-master-instrument</h2><img src='15-variant-15-master-instrument.svg' alt='variant-15-master-instrument'><div class='meta'>Balanced navigation instrument</div></article>
+    </div>
+  </div>
+</body>
+</html>

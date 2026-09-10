@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ORE AI Innovation Award concept 01 ring monolith">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8C089"/>
+      <stop offset="100%" stop-color="#8F7844"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="520" fill="#0A0A0A"/>
+
+  <!-- ORE ring with two openings (top-right and bottom-left) -->
+  <circle cx="210" cy="250" r="112" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+  <rect x="292" y="165" width="48" height="170" fill="#0A0A0A" transform="rotate(28 316 250)"/>
+  <rect x="78" y="165" width="48" height="170" fill="#0A0A0A" transform="rotate(28 102 250)"/>
+
+  <!-- Instrument calibration ring: thin construction circle and radial ticks -->
+  <circle cx="210" cy="250" r="132" fill="none" stroke="url(#ink)" stroke-width="1.6" opacity="0.62"/>
+  <line x1="210" y1="104" x2="210" y2="116" stroke="url(#ink)" stroke-width="2"/>
+  <line x1="210" y1="384" x2="210" y2="396" stroke="url(#ink)" stroke-width="2"/>
+  <line x1="64" y1="250" x2="76" y2="250" stroke="url(#ink)" stroke-width="2"/>
+  <line x1="344" y1="250" x2="356" y2="250" stroke="url(#ink)" stroke-width="2"/>
+  <line x1="313" y1="147" x2="304" y2="156" stroke="url(#ink)" stroke-width="1.6"/>
+  <line x1="107" y1="353" x2="116" y2="344" stroke="url(#ink)" stroke-width="1.6"/>
+  <line x1="107" y1="147" x2="116" y2="156" stroke="url(#ink)" stroke-width="1.6"/>
+  <line x1="313" y1="353" x2="304" y2="344" stroke="url(#ink)" stroke-width="1.6"/>
+
+  <!-- Navigation crosshair and bearings -->
+  <line x1="210" y1="118" x2="210" y2="382" stroke="url(#ink)" stroke-width="1.2" opacity="0.5"/>
+  <line x1="78" y1="250" x2="342" y2="250" stroke="url(#ink)" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 210 110 L 204 122 L 216 122 Z" fill="url(#ink)"/>
+  <path d="M 210 390 L 204 378 L 216 378 Z" fill="url(#ink)" opacity="0.75"/>
+  <path d="M 70 250 L 82 244 L 82 256 Z" fill="url(#ink)" opacity="0.75"/>
+  <path d="M 350 250 L 338 244 L 338 256 Z" fill="url(#ink)" opacity="0.75"/>
+
+  <!-- Subtle 30-degree bearing marks -->
+  <line x1="276" y1="136" x2="270" y2="146" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="324" y1="184" x2="314" y2="190" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="324" y1="316" x2="314" y2="310" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="276" y1="364" x2="270" y2="354" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="144" y1="364" x2="150" y2="354" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="96" y1="316" x2="106" y2="310" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="96" y1="184" x2="106" y2="190" stroke="url(#ink)" stroke-width="1.4"/>
+  <line x1="144" y1="136" x2="150" y2="146" stroke="url(#ink)" stroke-width="1.4"/>
+
+  <!-- Compass-like guide arcs inspired by drafting instruments -->
+  <path d="M 90 250 A 120 120 0 0 1 162 145" fill="none" stroke="url(#ink)" stroke-width="1.4" opacity="0.58"/>
+  <path d="M 258 355 A 120 120 0 0 1 330 250" fill="none" stroke="url(#ink)" stroke-width="1.4" opacity="0.58"/>
+
+  <!-- Measured monolith with scale notches -->
+  <rect x="198" y="138" width="24" height="224" fill="#0A0A0A"/>
+  <rect x="203" y="153" width="14" height="194" fill="url(#gold)" opacity="0.96"/>
+  <line x1="201" y1="176" x2="194" y2="176" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="201" y1="206" x2="196" y2="206" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="201" y1="236" x2="194" y2="236" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="201" y1="266" x2="196" y2="266" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="201" y1="296" x2="194" y2="296" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="201" y1="326" x2="196" y2="326" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="219" y1="176" x2="226" y2="176" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="219" y1="206" x2="224" y2="206" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="219" y1="236" x2="226" y2="236" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="219" y1="266" x2="224" y2="266" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="219" y1="296" x2="226" y2="296" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="219" y1="326" x2="224" y2="326" stroke="url(#ink)" stroke-width="1.2"/>
+  <path d="M 210 138 L 205 150 L 215 150 Z" fill="url(#ink)" opacity="0.9"/>
+
+  <text x="390" y="220" fill="url(#gold)" font-size="92" letter-spacing="7" font-family="Cinzel, 'Times New Roman', serif">ORE AI</text>
+  <text x="390" y="302" fill="url(#gold)" font-size="58" letter-spacing="6" font-family="Cinzel, 'Times New Roman', serif">INNOVATION AWARD</text>
+  <text x="392" y="348" fill="#B9A169" font-size="24" letter-spacing="4" font-family="Inter, 'Segoe UI', sans-serif">CELEBRATING THE BEST AI CREATIONS</text>
+</svg>

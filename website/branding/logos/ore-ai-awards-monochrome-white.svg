@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <svg x="17.2" y="17.2" width="165.6" height="165.6" viewBox="-180 -180 360 360">
+    <defs>
+      <mask id="monoWhiteRingCutsLocal" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-180" y="-180" width="360" height="360">
+        <rect x="-180" y="-180" width="360" height="360" fill="white"/>
+        <line x1="75.1" y1="-63.0" x2="96.5" y2="-81.0" stroke="black" stroke-width="24"/>
+        <line x1="-96.5" y1="81.0" x2="-75.1" y2="63.0" stroke="black" stroke-width="24"/>
+      </mask>
+    </defs>
+    <circle cx="0" cy="0" r="112" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" mask="url(#monoWhiteRingCutsLocal)"/>
+    <circle cx="0" cy="0" r="132" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.45"/>
+    <path d="M -156 0 L -138 -6 L -138 6 Z" fill="#FFFFFF" opacity="0.58" transform="rotate(-40 0 0)"/>
+    <path d="M 156 0 L 138 -6 L 138 6 Z" fill="#FFFFFF" opacity="0.82" transform="rotate(-40 0 0)"/>
+    <path d="M -156 0 L -138 -6 L -138 6 Z" fill="#FFFFFF" opacity="0.58" transform="rotate(50 0 0)"/>
+    <path d="M 156 0 L 138 -6 L 138 6 Z" fill="#FFFFFF" opacity="0.82" transform="rotate(50 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(72.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(95 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(117.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(162.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(185 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(207.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(252.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(275 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(297.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(342.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(365 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="#FFFFFF" opacity="0.9" transform="rotate(387.5 0 0)"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#FFFFFF" stroke-width="8" opacity="0.26"/>
+    <circle cx="0" cy="0" r="88" fill="none" stroke="#FFFFFF" stroke-width="0.95" opacity="0.12"/>
+    <path d="M 0 -62 L 9 0 L 0 62 L -9 0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.75" opacity="0.24"/>
+    <path d="M -62 0 L 0 9 L 62 0 L 0 -9 Z" fill="none" stroke="#FFFFFF" stroke-width="1.75" opacity="0.18"/>
+    <circle cx="0" cy="0" r="6" fill="#FFFFFF" opacity="0.28"/>
+    <line x1="-105" y1="88" x2="105" y2="-88" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+  </svg>
+</svg>

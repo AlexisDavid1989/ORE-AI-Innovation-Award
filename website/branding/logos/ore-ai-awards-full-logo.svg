@@ -1,0 +1,51 @@
+<svg viewBox="0 0 480 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oreGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE8A8"/>
+      <stop offset="52%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A6A1E"/>
+    </linearGradient>
+    <linearGradient id="oreInk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C7A86A"/>
+      <stop offset="100%" stop-color="#856A36"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="500" fill="#F7F8FA"/>
+
+  <g transform="translate(240 164) scale(0.72)">
+    <circle cx="0" cy="0" r="112" fill="none" stroke="url(#oreGold)" stroke-width="20" stroke-linecap="round"/>
+    <line x1="75.1" y1="-63.0" x2="96.5" y2="-81.0" stroke="#F7F8FA" stroke-width="24"/>
+    <line x1="-96.5" y1="81.0" x2="-75.1" y2="63.0" stroke="#F7F8FA" stroke-width="24"/>
+    <circle cx="0" cy="0" r="132" fill="none" stroke="url(#oreInk)" stroke-width="1.6" opacity="0.52"/>
+    <circle cx="0" cy="0" r="148" fill="none" stroke="url(#oreInk)" stroke-width="0.9" opacity="0.18"/>
+    <path d="M -156 0 L -138 -6 L -138 6 Z" fill="url(#oreInk)" opacity="0.58" transform="rotate(-40 0 0)"/>
+    <path d="M 156 0 L 138 -6 L 138 6 Z" fill="url(#oreInk)" opacity="0.82" transform="rotate(-40 0 0)"/>
+    <path d="M -156 0 L -138 -6 L -138 6 Z" fill="url(#oreInk)" opacity="0.58" transform="rotate(50 0 0)"/>
+    <path d="M 156 0 L 138 -6 L 138 6 Z" fill="url(#oreInk)" opacity="0.82" transform="rotate(50 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(72.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(95 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(117.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(162.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(185 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(207.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(252.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(275 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(297.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(342.5 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(365 0 0)"/>
+    <rect x="-0.45" y="-146" width="0.9" height="18" fill="url(#oreGold)" opacity="0.95" transform="rotate(387.5 0 0)"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#oreInk)" stroke-width="8" opacity="0.38"/>
+    <circle cx="0" cy="0" r="88" fill="none" stroke="url(#oreInk)" stroke-width="0.95" opacity="0.17"/>
+    <path d="M 0 -62 L 9 0 L 0 62 L -9 0 Z" fill="none" stroke="url(#oreInk)" stroke-width="1.75" opacity="0.36"/>
+    <path d="M -62 0 L 0 9 L 62 0 L 0 -9 Z" fill="none" stroke="url(#oreInk)" stroke-width="1.75" opacity="0.29"/>
+    <circle cx="0" cy="0" r="6" fill="url(#oreInk)" opacity="0.44"/>
+    <line x1="-105" y1="88" x2="105" y2="-88" stroke="url(#oreGold)" stroke-width="0.8" stroke-linecap="round"/>
+  </g>
+
+  <text x="240" y="325" font-family="Cinzel, 'Times New Roman', serif" font-size="31" font-weight="700" letter-spacing="4" text-anchor="middle" fill="#1A2E4A">ORE AI</text>
+  <text x="240" y="368" font-family="Cinzel, 'Times New Roman', serif" font-size="36" font-weight="700" letter-spacing="2.8" text-anchor="middle" fill="#1A2E4A">INNOVATION AWARD</text>
+  <line x1="102" y1="392" x2="378" y2="392" stroke="#D4AF37" stroke-width="2"/>
+  <text x="240" y="424" font-family="Inter, 'Segoe UI', sans-serif" font-size="19" font-weight="500" letter-spacing="0.9" text-anchor="middle" fill="#4A4A4A">BEST AI CREATION FOR ORE</text>
+  <text x="240" y="455" font-family="Cinzel, 'Times New Roman', serif" font-size="24" font-weight="700" letter-spacing="6" text-anchor="middle" fill="#D4AF37">2026</text>
+</svg>

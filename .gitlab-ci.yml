@@ -1,0 +1,15 @@
+# Publishes the static site in `public/` to GitLab Pages.
+# No build step is needed — the HTML/CSS/SVG assets live directly in `public/`.
+
+pages:
+  stage: deploy
+  tags:
+    - cluster2-euw1
+  image: busybox:latest
+  script:
+    - echo "Publishing ORE AI Innovation Award site to GitLab Pages"
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

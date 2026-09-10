@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1400 980" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="All 12 ORE symbol sketches">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <style>
+      .tile { fill: #0D0D0D; stroke: #232323; }
+      .label { fill: #C9B27A; font: 500 18px Inter, 'Segoe UI', sans-serif; }
+      .ring { fill: none; stroke: url(#gold); stroke-width: 10; }
+      .stroke-gold { fill: none; stroke: url(#gold); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-purple { fill: none; stroke: #8B7FD9; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-gold { fill: url(#gold); }
+      .fill-purple { fill: #8B7FD9; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="980" fill="#080808"/>
+
+  <!-- Row 1 -->
+  <g transform="translate(40 40)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <rect x="84" y="56" width="12" height="88" fill="#080808"/>
+    <rect x="87" y="62" width="6" height="76" class="fill-gold"/>
+    <text x="150" y="178" class="label">1. Ring Monolith</text>
+  </g>
+  <g transform="translate(370 40)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <path d="M 60 128 L 90 66 L 120 128 Z" class="stroke-gold"/>
+    <path d="M 72 110 L 90 80 L 108 110" class="stroke-purple"/>
+    <text x="150" y="178" class="label">2. Ring Delta</text>
+  </g>
+  <g transform="translate(700 40)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <path d="M 90 48 L 61 136 L 119 136 Z" fill="#FFFFFF" opacity="0.25"/>
+    <rect x="84" y="90" width="12" height="38" class="fill-gold"/>
+    <text x="150" y="178" class="label">3. Spotlight O</text>
+  </g>
+  <g transform="translate(1030 40)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <path d="M 188 134 L 206 84 L 224 134" class="stroke-gold"/>
+    <line x1="196" y1="112" x2="216" y2="112" class="stroke-purple"/>
+    <text x="150" y="178" class="label">4. O + A Fusion</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(40 270)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <rect x="83" y="74" width="14" height="18" class="fill-gold"/>
+    <line x1="90" y1="62" x2="90" y2="134" class="stroke-gold"/>
+    <text x="150" y="178" class="label">5. Ring Candlestick</text>
+  </g>
+  <g transform="translate(370 270)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <path d="M 58 120 C 82 120, 82 70, 110 70" class="stroke-gold"/>
+    <line x1="108" y1="68" x2="122" y2="68" class="stroke-gold"/>
+    <text x="150" y="178" class="label">6. Payoff Curve</text>
+  </g>
+  <g transform="translate(700 270)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <line x1="90" y1="72" x2="90" y2="130" class="stroke-gold"/>
+    <circle cx="90" cy="72" r="4" class="fill-purple"/>
+    <circle cx="90" cy="101" r="4" class="fill-purple"/>
+    <circle cx="90" cy="130" r="4" class="fill-purple"/>
+    <text x="150" y="178" class="label">7. Circuit Spine</text>
+  </g>
+  <g transform="translate(1030 270)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="76" cy="100" r="52"/>
+    <rect x="114" y="64" width="20" height="72" fill="#080808" transform="rotate(28 124 100)"/>
+    <text x="146" y="111" fill="url(#gold)" font-size="40" font-family="Cinzel, 'Times New Roman', serif" letter-spacing="5">RE</text>
+    <text x="148" y="178" class="label">8. Dual O Lockup</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(40 500)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <path d="M 90 48 L 130 67 L 130 133 L 90 152 L 50 133 L 50 67 Z" class="stroke-gold"/>
+    <path d="M 90 58 L 120 74 L 120 126 L 90 142 L 60 126 L 60 74 Z" class="stroke-gold"/>
+    <text x="150" y="178" class="label">9. Faceted O</text>
+  </g>
+  <g transform="translate(370 500)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <path d="M 50 106 L 130 92" class="stroke-gold"/>
+    <circle cx="98" cy="98" r="4" class="fill-purple"/>
+    <text x="150" y="178" class="label">10. Strike Point</text>
+  </g>
+  <g transform="translate(700 500)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <circle class="ring" cx="90" cy="100" r="52"/>
+    <rect x="128" y="64" width="20" height="72" fill="#080808" transform="rotate(28 138 100)"/>
+    <circle cx="138" cy="54" r="6" class="fill-purple"/>
+    <text x="150" y="178" class="label">11. Orbit Node</text>
+  </g>
+  <g transform="translate(1030 500)">
+    <rect class="tile" width="300" height="200" rx="12"/>
+    <path d="M 42 94 C 57 66, 92 66, 102 94 C 113 122, 148 122, 162 94" class="stroke-gold"/>
+    <path d="M 42 106 C 57 134, 92 134, 102 106 C 113 78, 148 78, 162 106" class="stroke-gold"/>
+    <text x="150" y="178" class="label">12. Infinity Risk Loop</text>
+  </g>
+
+  <text x="44" y="744" fill="#9F8B58" font-size="20" font-family="Inter, 'Segoe UI', sans-serif">Preview sketch board - select 2 or 3 concepts for refinement into final logo family.</text>
+</svg>

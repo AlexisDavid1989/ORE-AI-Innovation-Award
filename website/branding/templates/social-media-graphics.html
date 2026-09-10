@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORE AI Innovation Award 2026 - Social Media Graphics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .graphic {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .graphic h3 {
+            margin-top: 0;
+            color: #1A2E4A;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .graphic-preview {
+            width: 100%;
+            border: 2px solid #E8E8E8;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        /* Instagram Square (1:1) */
+        .instagram-square {
+            width: 100%;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #162A42 0%, #1F3551 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .mark {
+            width: 84px;
+            height: 84px;
+            margin-bottom: 15px;
+        }
+
+        .mark img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .instagram-square .title {
+            font-family: 'Cinzel', serif;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .instagram-square .subtitle {
+            font-size: 14px;
+            color: #D4AF37;
+            font-weight: 600;
+        }
+
+        /* LinkedIn Banner (16:9) */
+        .linkedin-banner {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background: linear-gradient(90deg, #14253B 0%, #1C314D 58%, #D4AF37 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .linkedin-banner .content {
+            flex: 1;
+        }
+
+        .linkedin-banner .title {
+            font-family: 'Cinzel', serif;
+            font-size: 42px;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+        }
+
+        .linkedin-banner .tagline {
+            font-size: 18px;
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+
+        .linkedin-banner .icon {
+            width: 86px;
+            height: 86px;
+            opacity: 0.92;
+        }
+
+        .linkedin-banner .icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        /* Twitter/X Post */
+        .twitter-post {
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            background: linear-gradient(135deg, #20344D 0%, #141F31 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .twitter-post .icon {
+            width: 68px;
+            height: 68px;
+            margin-bottom: 15px;
+        }
+
+        .twitter-post .icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .twitter-post .title {
+            font-family: 'Cinzel', serif;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .twitter-post .text {
+            font-size: 16px;
+            margin-bottom: 20px;
+            max-width: 80%;
+            line-height: 1.6;
+        }
+
+        .twitter-post .cta {
+            background: #D4AF37;
+            color: #1A2E4A;
+            padding: 10px 30px;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        /* Generic Badge */
+        .badge {
+            width: 100%;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #D4AF37 0%, #CD7F32 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #1A2E4A;
+        }
+
+        .badge .icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+
+        .badge .icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .badge .text {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        /* Category Badge */
+        .category-badge {
+            width: 100%;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #1A2E4A 0%, #3A5477 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 12px;
+            padding: 20px;
+            box-sizing: border-box;
+            color: white;
+            border: 3px solid #D4AF37;
+        }
+
+        .category-badge .icon {
+            width: 58px;
+            height: 58px;
+            margin-bottom: 12px;
+        }
+
+        .category-badge .icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .category-badge .text {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        /* Story (9:16 vertical) */
+        .story {
+            width: 100%;
+            aspect-ratio: 9 / 16;
+            background: linear-gradient(180deg, #1A2E4A 0%, #0F1419 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .story .icon {
+            width: 88px;
+            height: 88px;
+            margin-bottom: 20px;
+        }
+
+        .story .icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .story .title {
+            font-family: 'Cinzel', serif;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .story .text {
+            font-size: 16px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .story .highlight {
+            background: #D4AF37;
+            color: #1A2E4A;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        /* Download Info */
+        .download-info {
+            background: #F5F5F5;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #4A4A4A;
+            border-left: 3px solid #D4AF37;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #1A2E4A; margin-bottom: 40px;">
+        ORE AI Innovation Award 2026 — Social Media Graphics
+    </h1>
+
+    <div class="gallery">
+        <!-- Instagram Square -->
+        <div class="graphic">
+            <h3>Instagram Post (1:1 Square)</h3>
+            <div class="graphic-preview">
+                <div class="instagram-square">
+                    <div class="mark"><img src="../logos/ore-ai-awards-icon.svg" alt="ORE AI Innovation Award logo"></div>
+                    <div class="title">ORE AI Innovation Award</div>
+                    <div class="subtitle">Best AI Creation for ORE | September 2026</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Dimensions: 1080 × 1080px
+                💾 Format: PNG or JPG
+            </div>
+        </div>
+
+        <!-- LinkedIn Banner -->
+        <div class="graphic">
+            <h3>LinkedIn Banner (16:9)</h3>
+            <div class="graphic-preview">
+                <div class="linkedin-banner">
+                    <div class="content">
+                        <div class="title">ORE AI Innovation Award 2026</div>
+                        <div class="tagline">Best AI Creation for ORE</div>
+                    </div>
+                    <div class="icon"><img src="../logos/ore-ai-awards-icon.svg" alt="ORE AI Innovation Award logo"></div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Dimensions: 1200 × 627px
+                💾 Format: PNG
+            </div>
+        </div>
+
+        <!-- Twitter/X Post -->
+        <div class="graphic">
+            <h3>Twitter/X Post</h3>
+            <div class="graphic-preview">
+                <div class="twitter-post">
+                    <div class="icon"><img src="../logos/ore-ai-awards-icon.svg" alt="ORE AI Innovation Award logo"></div>
+                    <div class="title">ORE AI Innovation Award</div>
+                    <div class="text">Build the best AI creation for ORE and help celebrate ORE's 10-year anniversary. Winners announced sometime in November.</div>
+                    <div class="cta">APPLY IN SEPTEMBER</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Dimensions: 1200 × 675px (16:9)
+                💾 Format: PNG
+            </div>
+        </div>
+
+        <!-- Main Badge -->
+        <div class="graphic">
+            <h3>Main Logo Badge (Square)</h3>
+            <div class="graphic-preview">
+                <div class="badge">
+                    <div class="icon"><img src="../logos/ore-ai-awards-monochrome.svg" alt="ORE AI Innovation Award logo"></div>
+                    <div class="text">ORE AI<br>Innovation Award<br>2026</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Use for: Social profiles, overlays
+                💾 Suggested: 500 × 500px minimum
+            </div>
+        </div>
+
+        <!-- Category Badge: Best Overall -->
+        <div class="graphic">
+            <h3>Category Badge — AI Game Changer Award</h3>
+            <div class="graphic-preview">
+                <div class="category-badge">
+                    <div class="icon"><img src="../logos/ore-ai-awards-monochrome-white.svg" alt="ORE AI Innovation Award logo"></div>
+                    <div class="text">AI GAME CHANGER</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Use for: Award announcements
+                💾 Available in all 6 categories
+            </div>
+        </div>
+
+        <!-- Category Badge: J.A.R.V.I.S's Pick -->
+        <div class="graphic">
+            <h3>Category Badge — J.A.R.V.I.S's Pick</h3>
+            <div class="graphic-preview">
+                <div class="category-badge" style="background: linear-gradient(135deg, #162B44 0%, #6B5B95 100%); border-color: #E4C56A;">
+                    <div class="icon"><img src="../logos/ore-ai-awards-monochrome-white.svg" alt="ORE AI Innovation Award logo"></div>
+                    <div class="text">J.A.R.V.I.S'S PICK</div>
+                    <div style="font-size: 10px; margin-top: 8px; letter-spacing: 1px; color: #E4C56A; font-weight: 700;">AI JUDGE AWARD</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Use for: AI-judge selection announcement posts
+                💾 Pair with telemetry insights in caption text
+            </div>
+        </div>
+
+        <!-- Instagram Story -->
+        <div class="graphic">
+            <h3>Instagram/Facebook Story (9:16)</h3>
+            <div class="graphic-preview">
+                <div class="story">
+                    <div class="icon"><img src="../logos/ore-ai-awards-icon.svg" alt="ORE AI Innovation Award logo"></div>
+                    <div class="title">ORE AI Innovation Award</div>
+                    <div class="text">September 2026</div>
+                    <div class="highlight">BEST AI CREATION FOR ORE</div>
+                    <div style="font-size: 12px; opacity: 0.8;">Link in bio</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Dimensions: 1080 × 1920px
+                💾 Format: PNG with transparency
+            </div>
+        </div>
+
+        <!-- LinkedIn Profile Banner -->
+        <div class="graphic">
+            <h3>LinkedIn Profile Banner (16:4.5)</h3>
+            <div class="graphic-preview" style="aspect-ratio: 16 / 4.5;">
+                <div style="width: 100%; height: 100%; background: linear-gradient(90deg, #1A2E4A 0%, #6B5B95 100%); display: flex; align-items: center; justify-content: center; color: white;">
+                    <div style="text-align: center;">
+                        <div style="font-family: Cinzel, serif; font-weight: 700; font-size: 24px; margin-bottom: 5px;">ORE AI Innovation Award 2026</div>
+                        <div style="font-size: 14px;">Best AI Creation for ORE</div>
+                    </div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Dimensions: 1584 × 396px
+                💾 Format: PNG
+            </div>
+        </div>
+
+        <!-- Countdown Badge -->
+        <div class="graphic">
+            <h3>Countdown Badge</h3>
+            <div class="graphic-preview">
+                <div style="width: 100%; aspect-ratio: 1; background: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 12px; padding: 20px; box-sizing: border-box; color: #1A2E4A;">
+                    <div style="font-size: 48px; font-weight: 700;">30</div>
+                    <div style="font-size: 14px; margin-top: 5px; opacity: 0.8;">Days Left</div>
+                    <div style="font-size: 12px; margin-top: 10px; font-weight: 600;">SEPTEMBER 2026</div>
+                </div>
+            </div>
+            <div class="download-info">
+                📱 Use for: Countdown posts (update daily)
+                💾 Create variations: 30, 14, 7, 3, 1 day(s)
+            </div>
+        </div>
+    </div>
+
+    <div style="max-width: 1400px; margin: 50px auto; padding: 30px; background: #1A2E4A; color: white; border-radius: 8px;">
+        <h2 style="margin-top: 0; color: #D4AF37;">How to Use These Graphics</h2>
+        <ul style="line-height: 1.8; font-size: 16px;">
+            <li><strong>Right-click and save</strong> each preview to download (right-click → "Save image as")</li>
+            <li><strong>Customize text</strong> in graphic design tools (Figma, Canva, Photoshop)</li>
+            <li><strong>Adjust countdowns</strong> and application milestones as needed</li>
+            <li><strong>Add your company logo</strong> as a watermark (10-15% opacity)</li>
+            <li><strong>Post consistently</strong> across all social platforms for maximum reach</li>
+            <li><strong>Use as Stories/Reels</strong> for higher engagement (more than static posts)</li>
+            <li><strong>Include CTAs</strong> with link to submission portal in bio/comments</li>
+        </ul>
+    </div>
+
+    <div style="max-width: 1400px; margin: 30px auto; padding: 20px; background: #E8E8E8; border-radius: 8px; text-align: center;">
+        <p style="color: #4A4A4A; margin: 0;">
+            Need custom graphics? Use these colors: 
+            <strong>Gold (#D4AF37), Deep Blue (#1A2E4A), Purple (#6B5B95)</strong>
+        </p>
+        <p style="color: #4A4A4A; margin-top: 10px;">
+            Fonts: <strong>Cinzel (headers), Inter (body)</strong> — 
+            <a href="https://fonts.google.com" style="color: #D4AF37;">Download from Google Fonts</a>
+        </p>
+    </div>
+</body>
+</html>

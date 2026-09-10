@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Enter · ORE AI Innovation Award 2026</title>
+  <meta name="description" content="How to enter the ORE AI Innovation Award 2026: build your project, complete the submission form, and include your Copilot usage files." />
+  <link rel="icon" href="assets/logo-icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo-icon.svg" alt="ORE AI Innovation Award logo" />
+        <span class="brand-text">ORE AI Innovation Award<small>Best AI Creation for ORE · Sept 2026</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+      <div class="nav-links" id="navlinks">
+        <a href="index.html">Home</a>
+        <a href="index.html#categories">Categories</a>
+        <a href="index.html#timeline">Dates</a>
+        <a href="submit.html" class="active">How to Enter</a>
+        <a href="rules.html">Rules &amp; FAQ</a>
+        <a href="https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award" class="nav-cta">Submit</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding:72px 24px 84px;">
+    <p class="eyebrow">It's easier than you think</p>
+    <h1>How to <span class="accent">Enter</span></h1>
+    <p class="lead">Six steps from idea to submission. Fill in the form, grab the kit, build the project, complete <code>SUBMISSION.md</code>, upload the project, and add your video.</p>
+  </header>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="steps">
+        <div class="step">
+          <h3>Fill in the form</h3>
+          <p>Fill in the online form and let us know you're in the game. Tell us what you're going to build, who's with you, the name of the project, and the data used. We will then provide you access to the GitLab repository.</p>
+        </div>
+        <div class="step">
+          <h3>Grab the submission kit</h3>
+          <p>Clone the project <a href="https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award">GitLab repository</a> and create your own branch. It includes the standard submission form and the automatic Copilot usage tracking. You can also grab the submission kit from the Documents / Submission Kit folder.</p>
+        </div>
+        <div class="step">
+          <h3>Build your project</h3>
+          <p>Make something AI-centered and relevant to ORE. Everyone uses GitHub Copilot for this award, and usage is captured automatically, so there's nothing to track by hand.</p>
+        </div>
+        <div class="step">
+          <h3>Fill in <code>SUBMISSION.md</code></h3>
+          <p>Complete the standard form: the problem, your approach, technologies and models used, setup instructions, the value it delivers, and who's behind it. Every field earns its place.</p>
+        </div>
+        <div class="step">
+          <h3>Upload your project</h3>
+          <p>Push your project to <strong>its own branch</strong> in the GitLab repository, and don't forget to add the auto-generated Copilot files — untouched: <code>COPILOT_USAGE_REPORT.md</code>, <code>usage-summary.json</code>, and <code>prompt-answer-log.jsonl</code>.</p>
+        </div>
+        <div class="step">
+          <h3>Upload your video</h3>
+          <p>Upload your demonstration video to the award SharePoint page in <strong>Documents / Submissions / Videos</strong>. This is necessary if you want people to vote for your project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The checklist</p>
+        <h2>What to bring</h2>
+        <p>Every entry should show up with these. A missing piece can cost you points — or a spot in the running.</p>
+      </div>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>📄 A completed <code>SUBMISSION.md</code></h3>
+          <p>Problem, approach, technologies and models, setup instructions, value, and owners.</p>
+        </div>
+        <div class="card">
+          <h3>🛠️ The working project</h3>
+          <p>Source code — or a hosted demo / recording if it can't be run locally.</p>
+        </div>
+        <div class="card">
+          <h3>🖼️ Screenshots or a short demo</h3>
+          <p>Wherever they help tell the story of what you built.</p>
+        </div>
+        <div class="card">
+          <h3>🤖 Copilot usage files</h3>
+          <p>The untouched auto-generated Copilot report, JSON summary, and transcript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt token-primer">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">A practical definition</p>
+        <h2>What is a token?</h2>
+        <p>A token is the unit of text an AI model counts when it reads input or generates output. It is not the same as a word, character, or line of code.</p>
+      </div>
+      <div class="token-primer-grid">
+        <h3>How text becomes tokens</h3>
+        <p>A tokenizer breaks text into pieces the model can process. A token may be a whole word, part of a word, punctuation, whitespace, a number, or a code symbol. Common words are often compact; uncommon words, long identifiers, and mixed languages usually need more pieces. The exact split depends on the model.</p>
+        <div class="table-panel">
+          <table class="telemetry-table">
+              <thead><tr><th>Text</th><th>Split into tokens</th><th>Why</th></tr></thead>
+              <tbody>
+                <tr><td><code>"Please summarize this file"</code></td><td><code>Please</code> · <code>summarize</code> · <code>this</code> · <code>file</code> = 4 tokens</td><td>Common whole words are usually a single token each.</td></tr>
+                <tr><td><code>"internationalization"</code></td><td><code>international</code> · <code>ization</code> = 2 tokens</td><td>Long, uncommon words are split into smaller pieces.</td></tr>
+                <tr><td><code>"2026-08-27"</code></td><td><code>2026</code> · <code>-</code> · <code>08</code> · <code>-</code> · <code>27</code> = 5 tokens</td><td>Numbers and punctuation are usually counted separately.</td></tr>
+                <tr><td><code>"for (i = 0; i &lt; 10; i++)"</code></td><td>words, punctuation, and symbols = several tokens</td><td>Code syntax rarely maps cleanly to whole words.</td></tr>
+              </tbody>
+          </table>
+        </div>
+        <p class="token-note">These are simplified illustrations, not Copilot's exact tokenizer. One word is not always one token, and one token is not always one word.</p>
+        <p class="token-note">Curious how your own text splits into tokens? Try <a href="https://platform.openai.com/tokenizer" target="_blank" rel="noopener">OpenAI's interactive Tokenizer tool</a> and paste in a sentence or a snippet of code to see it broken down live.</p>
+        <p>Once text is tokenized, each token is read by the model as part of its input sequence. When generating a reply, the model predicts and outputs one token at a time, adding each new token to the growing answer until the response is complete. Those output tokens are then converted back into readable text and returned to you as completion tokens.</p>
+        <h3 class="rough-scale">A rough scale</h3>
+        <p>OpenAI publishes a rough estimate for English text with its own tokenizer: about 4 characters per token, or roughly 750 words per 1,000 tokens. This is an approximation, not a fixed rule: it varies by model and tokenizer, and Copilot's underlying models may not split text the same way. Code, non-English languages, and unusual identifiers typically need more tokens per word than plain English prose. Every model also has a maximum context window, a limit on how many tokens it can hold in a single request, which is why very long conversations or large files can eventually need to be trimmed or summarized.</p>
+        <p class="token-note">Source: <a href="https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them" target="_blank" rel="noopener">OpenAI, "Understanding and counting tokens"</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">No spreadsheets required</p>
+        <h2>About the Copilot tracking</h2>
+      </div>
+      <p class="tel-lead"><strong>J.A.R.V.I.S., our AI judge,</strong> has a soft spot for projects that are both well built <em>and</em> built smart. Here's exactly how the usage tracking works — and why it's nothing to worry about.</p>
+
+      <div class="tel-flow">
+        <div class="tel-step">
+          <div class="tel-ico">🗂️</div>
+          <h4>1. You build</h4>
+          <p>Use GitHub Copilot in VS Code exactly as you normally would.</p>
+        </div>
+        <div class="tel-arrow">→</div>
+        <div class="tel-step">
+          <div class="tel-ico">📖</div>
+          <h4>2. Local read</h4>
+          <p>When the project opens, a local script reads VS Code's own Copilot log files.</p>
+        </div>
+        <div class="tel-arrow">→</div>
+        <div class="tel-step">
+          <div class="tel-ico">🔢</div>
+          <h4>3. Count only</h4>
+          <p>It counts tokens and notes the model, mode, and tools used — never the words.</p>
+        </div>
+        <div class="tel-arrow">→</div>
+        <div class="tel-step">
+          <div class="tel-ico">📄</div>
+          <h4>4. Report</h4>
+          <p>It writes anonymized summary files into your project. That's it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Your data stays yours</p>
+        <h2>What it does — and never does</h2>
+      </div>
+      <div class="tel-assure">
+        <div class="item">
+          <h4>✅ Runs 100% locally</h4>
+          <p>A plain PowerShell script on your machine. No network calls, no upload — nothing leaves your computer.</p>
+        </div>
+        <div class="item">
+          <h4>✅ Costs zero tokens</h4>
+          <p>It reads log files that already exist and never calls an AI model. Free of charge.</p>
+        </div>
+        <div class="item">
+          <h4>✅ This workspace only</h4>
+          <p>It matches your project folder and summarizes that project's Copilot sessions.</p>
+        </div>
+        <div class="item no">
+          <h4>🚫 Never reads your text</h4>
+          <p>The wording of your prompts and Copilot's answers is never opened, stored, or sent anywhere.</p>
+        </div>
+        <div class="item no">
+          <h4>🚫 No conversation content</h4>
+          <p>Only token counts and structured metadata (model, mode, tools) are kept — no messages.</p>
+        </div>
+        <div class="item">
+          <h4>✅ Fully inspectable</h4>
+          <p>The script is a short, readable file in your project. Open it and see for yourself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <p class="callout info"><strong>Two separate views:</strong> the first donut shows <em>where tokens came from</em>; the second shows <em>what type of work requests used tools for</em>. They are calculated independently and are not expected to reconcile.</p>
+      <div class="section-head">
+        <p class="eyebrow">Follow the tokens</p>
+        <h2>Where your Copilot tokens go</h2>
+        <p>Every request spends tokens on a few different things. This split shows <strong>where the tokens came from</strong>: messages, tool results, files, system instructions, and Copilot's answer.</p>
+      </div>
+      <div class="tel-split">
+        <div class="donut-wrap">
+          <div class="donut" role="img" aria-label="Token split donut chart">
+            <div class="donut-center"><strong>100%</strong><span>of tokens</span></div>
+          </div>
+        </div>
+        <ul class="legend">
+          <li>
+            <span class="sw" style="background:#6B5B95"></span>
+            <span class="lbl">Your prompts &amp; chat history<small>What you typed, plus earlier turns resent each request</small></span>
+            <span class="pct">51%</span>
+          </li>
+          <li>
+            <span class="sw" style="background:#D4AF37"></span>
+            <span class="lbl">Data read into context<small>Tool, terminal, and search results pulled in to answer</small></span>
+            <span class="pct">24%</span>
+          </li>
+          <li>
+            <span class="sw" style="background:#2A4E6A"></span>
+            <span class="lbl">System overhead<small>Copilot's own base instructions</small></span>
+            <span class="pct">22%</span>
+          </li>
+          <li>
+            <span class="sw" style="background:#CD7F32"></span>
+            <span class="lbl">Files read into context<small>Source files you added to the chat</small></span>
+            <span class="pct">1%</span>
+          </li>
+          <li>
+            <span class="sw" style="background:#8B7FD9"></span>
+            <span class="lbl">Answer generated by Copilot<small>Tokens written back to you — an exact count</small></span>
+            <span class="pct">2%</span>
+          </li>
+        </ul>
+      </div>
+      <p class="tel-cap">Illustrative example. Your real split comes straight from Copilot's own per-request token breakdown — the script maps those numbers and <strong>never reads the underlying text</strong>.</p>
+      <div class="prose" style="margin-top:26px;">
+        <h3>How the token sources are calculated</h3>
+        <p>For prompt sources, the script applies each JSON percentage to <code>promptTokens</code>. Answer tokens come directly from <code>completionTokens</code>.</p>
+        <p class="callout info"><strong>Sub-agent token notice:</strong> totals include only model requests present in the local VS Code logs. A sub-agent invocation may be visible without its child model calls being recorded, so sub-agent token usage may not be included in the reported total.</p>
+        <div class="table-panel">
+          <table class="telemetry-table">
+            <thead><tr><th>JSON fields</th><th>Brief explanation</th><th>Report name</th></tr></thead>
+            <tbody>
+              <tr><td><code>User Context</code> / <code>Messages</code></td><td>Your prompt and earlier conversation messages</td><td><code>user_prompt_tokens</code></td></tr>
+              <tr><td><code>User Context</code> / <code>Tool Results</code></td><td>Search, terminal, or other tool output included in context</td><td><code>reading_data_tokens</code></td></tr>
+              <tr><td><code>User Context</code> / <code>Files</code></td><td>Files included as project context</td><td><code>reading_code_structure_tokens</code></td></tr>
+              <tr><td><code>System</code></td><td>System instructions and operating rules</td><td><code>system_overhead_tokens</code></td></tr>
+              <tr><td><code>completionTokens</code></td><td>Tokens in Copilot's generated answer</td><td><code>answer_generation_tokens</code></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="json-example">
+          <p><strong>Example JSON:</strong></p>
+          <pre><code>{
+  "promptTokens": 10000,
+  "completionTokens": 500,
+  "promptTokenDetails": [
+    { "category": "User Context", "label": "Messages", "percentageOfPrompt": 20 },
+    { "category": "User Context", "label": "Tool Results", "percentageOfPrompt": 30 },
+    { "category": "User Context", "label": "Files", "percentageOfPrompt": 10 },
+    { "category": "System", "percentageOfPrompt": 40 }
+  ]
+}</code></pre>
+          <p><strong>Explanation:</strong> the request contains 10,000 prompt tokens. The percentages divide them into 2,000 message tokens (classified as <code>user_prompt_tokens</code>), 3,000 tool-result tokens (classified as <code>reading_data_tokens</code>), 1,000 file-context tokens (classified as <code>reading_code_structure_tokens</code>), and 4,000 system-overhead tokens (classified as <code>system_overhead_tokens</code>). The response contains 500 completion tokens, recorded as <code>answer_generation_tokens</code>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What the work looked like</p>
+        <h2>How activity is categorized</h2>
+        <p>Requests are sorted into a handful of activity types so the mix of building, reading, and debugging is visible at a glance. This is a separate view from the token-source donut above.</p>
+      </div>
+      <div class="tel-split activity-split">
+        <div class="donut-wrap">
+          <div class="donut activity-donut" role="img" aria-label="Activity classification donut chart">
+            <div class="donut-center"><strong>100%</strong><span>of activity</span></div>
+          </div>
+        </div>
+        <ul class="legend">
+          <li><span class="sw" style="background:#020F98"></span><span class="lbl">Refactor &amp; editing<small>Edit and patch tools</small></span><span class="pct">60%</span></li>
+          <li><span class="sw" style="background:#029BE3"></span><span class="lbl">Reading code structure<small>Search, read, and list tools</small></span><span class="pct">11%</span></li>
+          <li><span class="sw" style="background:#FF7459"></span><span class="lbl">Code generation<small>File-creation tools</small></span><span class="pct">8%</span></li>
+          <li><span class="sw" style="background:#FBDD65"></span><span class="lbl">Debugging &amp; testing<small>Terminal, error, and test tools</small></span><span class="pct">4%</span></li>
+          <li><span class="sw" style="background:#5CCADF"></span><span class="lbl">Planning &amp; docs<small>Plan mode</small></span><span class="pct">3%</span></li>
+          <li><span class="sw" style="background:#8C8C8C"></span><span class="lbl">Unclassified<small>No recognized tool or mode signal</small></span><span class="pct">14%</span></li>
+        </ul>
+      </div>
+      <p class="tel-cap">Categories are inferred from <strong>which tools ran and which mode you used</strong> — not from the words in your prompt. Token counts are exact; the category labels are best-effort and marked as inferred.</p>
+      <div class="prose" style="margin-top:26px;">
+        <h3>How the categories are calculated</h3>
+        <p>Each request gets one category from its tool IDs. That category receives the request's full <code>promptTokens + completionTokens</code>.</p>
+        <div class="table-panel">
+          <table class="telemetry-table">
+            <thead><tr><th>Tool ID</th><th>Brief explanation</th><th>Classification</th></tr></thead>
+            <tbody>
+              <tr><td><code>createfile</code></td><td>Creates a new file</td><td><code>code_generation</code></td></tr>
+              <tr class="classification-start"><td><code>applypatch</code></td><td>Applies a patch to an existing file</td><td><code>refactor_editing</code></td></tr>
+              <tr><td><code>replacestring</code></td><td>Replaces text in an existing file</td><td><code>refactor_editing</code></td></tr>
+              <tr><td><code>insertedit</code></td><td>Inserts text into an existing file</td><td><code>refactor_editing</code></td></tr>
+              <tr class="classification-start"><td><code>run_in_terminal</code></td><td>Runs a terminal command</td><td><code>debugging_testing</code></td></tr>
+              <tr><td><code>geterrors</code></td><td>Retrieves code or diagnostic errors</td><td><code>debugging_testing</code></td></tr>
+              <tr><td><code>testfailure</code></td><td>Reports a failed test</td><td><code>debugging_testing</code></td></tr>
+              <tr class="classification-start"><td><code>readfile</code></td><td>Reads a file's contents</td><td><code>code_structure_reading</code></td></tr>
+              <tr><td><code>findfiles</code></td><td>Searches for files by name or pattern</td><td><code>code_structure_reading</code></td></tr>
+              <tr><td><code>findtextinfiles</code></td><td>Searches for text across files</td><td><code>code_structure_reading</code></td></tr>
+              <tr><td><code>listdirectory</code></td><td>Lists files and folders</td><td><code>code_structure_reading</code></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="json-example">
+          <p><strong>Example JSON:</strong></p>
+          <pre><code>{
+  "promptTokens": 2000,
+  "completionTokens": 100,
+  "response": [
+    { "kind": "toolInvocationSerialized", "toolId": "applypatch" },
+    { "kind": "toolInvocationSerialized", "toolId": "run_in_terminal" }
+  ]
+}</code></pre>
+          <p><strong>Explanation:</strong> the request uses <code>applypatch</code>, so it is classified as <code>refactor_editing</code>. That category receives 2,100 tokens (2,000 prompt tokens + 100 completion tokens). Although <code>run_in_terminal</code> also appears, editing has higher priority and the request is counted only once.</p>
+        </div>
+        <div class="callout info">
+          <strong>In short:</strong> the tracking is a local, zero-cost tally of how many tokens went where and which tools you reached for. It can't see, keep, or share what you and Copilot actually said. Please just leave the generated files untouched — their integrity is part of judging.
+        </div>
+        <p style="text-align:center;">Curious about the finer points? The <a href="rules.html">Rules &amp; FAQ</a> covers everything.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <h2>Got your project ready?</h2>
+    <p>Double-check the checklist, then send it our way. We can't wait to see what you built.</p>
+    <a href="https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award" class="btn btn-gold">Submit Your Project</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="brand">
+        <img src="assets/logo-icon.svg" alt="" width="36" height="36" />
+        <span class="brand-text">ORE AI Innovation Award 2026<small>September 2026</small></span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="rules.html">Rules &amp; FAQ</a>
+        <a href="mailto:alexis.david@lseg.com">Contact</a>
+      </div>
+    </div>
+    <div class="footer-inner" style="margin-top:20px;">
+      <small>© 2026 ORE AI Innovation Award. Placeholders in [BRACKETS] to be finalized before publishing.</small>
+    </div>
+  </footer>
+</body>
+</html>

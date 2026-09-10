@@ -1,0 +1,31 @@
+﻿{
+    "generated_at_utc":  "2026-08-07T14:50:02.3402066Z",
+    "rubric_name":  "ORE_Awards_Strict_v1",
+    "weights":  {
+                    "solution_quality":  50,
+                    "prompting_quality":  20,
+                    "token_efficiency":  20,
+                    "process_transparency":  10
+                },
+    "final_score_100":  53.66,
+    "components":  {
+                       "solution_quality":  57.71,
+                       "prompting_quality":  39.85,
+                       "token_efficiency":  34.19,
+                       "process_transparency":  100
+                   },
+    "diagnostics":  {
+                        "request_count":  72,
+                        "avg_tokens_per_request":  119106.74,
+                        "completion_share_percent":  0.84,
+                        "micro_prompt_ratio":  0.0972,
+                        "rework_signal_count":  15,
+                        "positive_ack_count":  6,
+                        "implementation_prompt_count":  1,
+                        "average_decision_score":  53.85,
+                        "decision_good":  4,
+                        "decision_ok":  61,
+                        "decision_poor":  7
+                    },
+    "confidence":  "heuristic"
+}

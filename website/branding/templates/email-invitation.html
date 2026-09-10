@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORE AI Innovation Award 2026 - Invitation</title>
+    <style>
+        :root {
+            --lseg-midnight: #010469;
+            --lseg-navy: #020F98;
+            --lseg-sky: #029BE3;
+            --lseg-teal: #5CCADF;
+            --lseg-cruise: #ADDEDC;
+            --lseg-pink: #FF585D;
+            --lseg-coral: #FF7459;
+            --lseg-peach: #F7C593;
+            --lseg-yellow: #FBDD65;
+            --gray-deep: #464646;
+            --gray-light: #E6E6E6;
+            --gray-surface: #F4F8FB;
+            --white: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Proxima Nova', 'ProximaNova', 'Avenir Next', 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--lseg-midnight);
+            background-color: var(--gray-surface);
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--white);
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(1, 4, 105, 0.16);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--lseg-midnight) 0%, var(--lseg-navy) 62%, var(--lseg-sky) 100%);
+            padding: 34px 20px 28px;
+            text-align: center;
+            border-bottom: 6px solid var(--lseg-yellow);
+        }
+
+        .logo {
+            width: 132px;
+            height: 132px;
+            margin: 0 auto 20px;
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            width: 108px;
+            height: 108px;
+            display: block;
+        }
+
+        .header h1 {
+            font-family: 'Proxima Nova', 'ProximaNova', 'Avenir Next', 'Segoe UI', sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.88);
+            letter-spacing: 0.7px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .greeting {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .greeting strong {
+            color: var(--lseg-navy);
+        }
+
+        .main-text {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: var(--gray-deep);
+        }
+
+        .highlight-box {
+            background-color: #EEF8FB;
+            border-left: 5px solid var(--lseg-yellow);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box h3 {
+            color: var(--lseg-midnight);
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-family: 'Proxima Nova', 'ProximaNova', 'Avenir Next', 'Segoe UI', sans-serif;
+        }
+
+        .awards-list {
+            list-style: none;
+            margin: 15px 0;
+        }
+
+        .awards-list li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 14px;
+        }
+
+        .awards-list li:before {
+            content: "🏆";
+            position: absolute;
+            left: 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--lseg-navy) 0%, var(--lseg-sky) 100%);
+            color: var(--white);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            margin: 30px 0;
+            border: 2px solid var(--lseg-navy);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 24px rgba(2, 15, 152, 0.26);
+        }
+
+        .cta-button:hover {
+            background: linear-gradient(135deg, var(--lseg-midnight) 0%, var(--lseg-navy) 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 22px rgba(1, 4, 105, 0.35);
+        }
+
+        .dates {
+            background: linear-gradient(135deg, var(--lseg-midnight) 0%, var(--lseg-navy) 100%);
+            color: var(--white);
+            padding: 20px;
+            border-radius: 4px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .dates h4 {
+            color: var(--lseg-yellow);
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .dates p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .footer {
+            background-color: var(--gray-surface);
+            padding: 30px 40px;
+            border-top: 1px solid var(--gray-light);
+            text-align: center;
+        }
+
+        .footer-text {
+            font-size: 13px;
+            color: var(--gray-deep);
+            margin: 10px 0;
+        }
+
+        .footer-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--lseg-yellow), transparent);
+            margin: 20px 0;
+        }
+
+        .social-links {
+            margin: 15px 0;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background-color: var(--lseg-navy);
+            color: var(--white);
+            border-radius: 50%;
+            text-align: center;
+            margin: 0 8px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: var(--lseg-sky);
+            color: var(--white);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .logo {
+                width: 88px;
+                height: 88px;
+            }
+
+            .logo img {
+                width: 72px;
+                height: 72px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Im9yZUdvbGQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZFOEE4Ii8+PHN0b3Agb2Zmc2V0PSI1MiUiIHN0b3AtY29sb3I9IiNENEFGMzciLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5QTZBMUUiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ib3JlSW5rIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0M3QTg2QSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg1NkEzNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJub25lIi8+PHN2ZyB4PSIxNy4yIiB5PSIxNy4yIiB3aWR0aD0iMTY1LjYiIGhlaWdodD0iMTY1LjYiIHZpZXdCb3g9Ii0xODAgLTE4MCAzNjAgMzYwIj48ZGVmcz48bWFzayBpZD0iaWNvblJpbmdDdXRzTG9jYWwiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIG1hc2tDb250ZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSItMTgwIiB5PSItMTgwIiB3aWR0aD0iMzYwIiBoZWlnaHQ9IjM2MCI+PHJlY3QgeD0iLTE4MCIgeT0iLTE4MCIgd2lkdGg9IjM2MCIgaGVpZ2h0PSIzNjAiIGZpbGw9IndoaXRlIi8+PGxpbmUgeDE9Ijc1LjEiIHkxPSItNjMuMCIgeDI9Ijk2LjUiIHkyPSItODEuMCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyNCIvPjxsaW5lIHgxPSItOTYuNSIgeTE9IjgxLjAiIHgyPSItNzUuMSIgeTI9IjYzLjAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMjQiLz48L21hc2s+PC9kZWZzPjxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNvcmVHb2xkKSIgc3Ryb2tlLXdpZHRoPSIyMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBtYXNrPSJ1cmwoI2ljb25SaW5nQ3V0c0xvY2FsKSIvPjxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxMzIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNvcmVJbmspIiBzdHJva2Utd2lkdGg9IjEuNiIgb3BhY2l0eT0iMC41MiIvPjxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxNDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNvcmVJbmspIiBzdHJva2Utd2lkdGg9IjAuOSIgb3BhY2l0eT0iMC4xOCIvPjxwYXRoIGQ9Ik0gLTE1NiAwIEwgLTEzOCAtNiBMIC0xMzggNiBaIiBmaWxsPSJ1cmwoI29yZUluaykiIG9wYWNpdHk9IjAuNTgiIHRyYW5zZm9ybT0icm90YXRlKC00MCAwIDApIi8+PHBhdGggZD0iTSAxNTYgMCBMIDEzOCAtNiBMIDEzOCA2IFoiIGZpbGw9InVybCgjb3JlSW5rKSIgb3BhY2l0eT0iMC44MiIgdHJhbnNmb3JtPSJyb3RhdGUoLTQwIDAgMCkiLz48cGF0aCBkPSJNIC0xNTYgMCBMIC0xMzggLTYgTCAtMTM4IDYgWiIgZmlsbD0idXJsKCNvcmVJbmspIiBvcGFjaXR5PSIwLjU4IiB0cmFuc2Zvcm09InJvdGF0ZSg1MCAwIDApIi8+PHBhdGggZD0iTSAxNTYgMCBMIDEzOCAtNiBMIDEzOCA2IFoiIGZpbGw9InVybCgjb3JlSW5rKSIgb3BhY2l0eT0iMC44MiIgdHJhbnNmb3JtPSJyb3RhdGUoNTAgMCAwKSIvPjxyZWN0IHg9Ii0wLjQ1IiB5PSItMTQ2IiB3aWR0aD0iMC45IiBoZWlnaHQ9IjE4IiBmaWxsPSJ1cmwoI29yZUdvbGQpIiBvcGFjaXR5PSIwLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSg3Mi41IDAgMCkiLz48cmVjdCB4PSItMC40NSIgeT0iLTE0NiIgd2lkdGg9IjAuOSIgaGVpZ2h0PSIxOCIgZmlsbD0idXJsKCNvcmVHb2xkKSIgb3BhY2l0eT0iMC45NSIgdHJhbnNmb3JtPSJyb3RhdGUoOTUgMCAwKSIvPjxyZWN0IHg9Ii0wLjQ1IiB5PSItMTQ2IiB3aWR0aD0iMC45IiBoZWlnaHQ9IjE4IiBmaWxsPSJ1cmwoI29yZUdvbGQpIiBvcGFjaXR5PSIwLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSgxMTcuNSAwIDApIi8+PHJlY3QgeD0iLTAuNDUiIHk9Ii0xNDYiIHdpZHRoPSIwLjkiIGhlaWdodD0iMTgiIGZpbGw9InVybCgjb3JlR29sZCkiIG9wYWNpdHk9IjAuOTUiIHRyYW5zZm9ybT0icm90YXRlKDE2Mi41IDAgMCkiLz48cmVjdCB4PSItMC40NSIgeT0iLTE0NiIgd2lkdGg9IjAuOSIgaGVpZ2h0PSIxOCIgZmlsbD0idXJsKCNvcmVHb2xkKSIgb3BhY2l0eT0iMC45NSIgdHJhbnNmb3JtPSJyb3RhdGUoMTg1IDAgMCkiLz48cmVjdCB4PSItMC40NSIgeT0iLTE0NiIgd2lkdGg9IjAuOSIgaGVpZ2h0PSIxOCIgZmlsbD0idXJsKCNvcmVHb2xkKSIgb3BhY2l0eT0iMC45NSIgdHJhbnNmb3JtPSJyb3RhdGUoMjA3LjUgMCAwKSIvPjxyZWN0IHg9Ii0wLjQ1IiB5PSItMTQ2IiB3aWR0aD0iMC45IiBoZWlnaHQ9IjE4IiBmaWxsPSJ1cmwoI29yZUdvbGQpIiBvcGFjaXR5PSIwLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSgyNTIuNSAwIDApIi8+PHJlY3QgeD0iLTAuNDUiIHk9Ii0xNDYiIHdpZHRoPSIwLjkiIGhlaWdodD0iMTgiIGZpbGw9InVybCgjb3JlR29sZCkiIG9wYWNpdHk9IjAuOTUiIHRyYW5zZm9ybT0icm90YXRlKDI3NSAwIDApIi8+PHJlY3QgeD0iLTAuNDUiIHk9Ii0xNDYiIHdpZHRoPSIwLjkiIGhlaWdodD0iMTgiIGZpbGw9InVybCgjb3JlR29sZCkiIG9wYWNpdHk9IjAuOTUiIHRyYW5zZm9ybT0icm90YXRlKDI5Ny41IDAgMCkiLz48cmVjdCB4PSItMC40NSIgeT0iLTE0NiIgd2lkdGg9IjAuOSIgaGVpZ2h0PSIxOCIgZmlsbD0idXJsKCNvcmVHb2xkKSIgb3BhY2l0eT0iMC45NSIgdHJhbnNmb3JtPSJyb3RhdGUoMzQyLjUgMCAwKSIvPjxyZWN0IHg9Ii0wLjQ1IiB5PSItMTQ2IiB3aWR0aD0iMC45IiBoZWlnaHQ9IjE4IiBmaWxsPSJ1cmwoI29yZUdvbGQpIiBvcGFjaXR5PSIwLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNjUgMCAwKSIvPjxyZWN0IHg9Ii0wLjQ1IiB5PSItMTQ2IiB3aWR0aD0iMC45IiBoZWlnaHQ9IjE4IiBmaWxsPSJ1cmwoI29yZUdvbGQpIiBvcGFjaXR5PSIwLjk1IiB0cmFuc2Zvcm09InJvdGF0ZSgzODcuNSAwIDApIi8+PGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjcwIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjb3JlSW5rKSIgc3Ryb2tlLXdpZHRoPSI4IiBvcGFjaXR5PSIwLjM4Ii8+PGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9Ijg4IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjb3JlSW5rKSIgc3Ryb2tlLXdpZHRoPSIwLjk1IiBvcGFjaXR5PSIwLjE3Ii8+PHBhdGggZD0iTSAwIC02MiBMIDkgMCBMIDAgNjIgTCAtOSAwIFoiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNvcmVJbmspIiBzdHJva2Utd2lkdGg9IjEuNzUiIG9wYWNpdHk9IjAuMzYiLz48cGF0aCBkPSJNIC02MiAwIEwgMCA5IEwgNjIgMCBMIDAgLTkgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI29yZUluaykiIHN0cm9rZS13aWR0aD0iMS43NSIgb3BhY2l0eT0iMC4yOSIvPjxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI2IiBmaWxsPSJ1cmwoI29yZUluaykiIG9wYWNpdHk9IjAuNDQiLz48bGluZSB4MT0iLTEwNSIgeTE9Ijg4IiB4Mj0iMTA1IiB5Mj0iLTg4IiBzdHJva2U9InVybCgjb3JlR29sZCkiIHN0cm9rZS13aWR0aD0iMC44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz48L3N2Zz4=" alt="ORE AI Innovation Award logo">
+            </div>
+            <h1>ORE AI Innovation Award</h1>
+            <p>Best AI Creation for ORE | September 2026</p>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="greeting">
+                Hello <strong>Post-Trade Solutions team</strong>,
+            </div>
+
+            <p class="main-text">
+                You're invited to take part in the <strong>ORE AI Innovation Award 2026</strong>, a September competition — open to all Post-Trade Solutions employees — to recognize the best AI creation built for ORE. Fly solo or bring a team; you can enter more than one project.
+            </p>
+
+            <div class="highlight-box">
+                <h3>About the Award</h3>
+                <p>
+                    This is a chance to showcase work that is original, useful, visually strong, or simply the most compelling AI idea for the ORE ecosystem, as part of ORE's 10-year anniversary celebrations. Winners will be announced sometime in November.
+                </p>
+                <p style="margin-top: 12px;">
+                    Everyone builds with <strong>GitHub Copilot</strong>, and a local, zero-token script captures your usage automatically — nothing to track by hand.
+                </p>
+            </div>
+
+            <div class="dates">
+                <h4>Key Dates</h4>
+                <p><strong>Applications Open:</strong> September 14, 2026</p>
+                <p><strong>Applications Close:</strong> September 30, 2026, 23:59 UK time</p>
+                <p><strong>Winners Announced:</strong> Sometime in November 2026, as part of ORE's 10-year anniversary celebrations</p>
+            </div>
+
+            <h3 style="margin-top: 30px; color: #010469; font-family: 'Proxima Nova', 'ProximaNova', 'Avenir Next', 'Segoe UI', sans-serif;">Award Categories</h3>
+            <ul class="awards-list">
+                <li><strong>AI Game Changer Award</strong> — The strongest all-around entry</li>
+                <li><strong>Boldest AI Idea Award</strong> — The most original concept and biggest creative leap</li>
+                <li><strong>Customer Wow Award</strong> — The best-looking, most delightful user experience</li>
+                <li><strong>Workday Hero Award</strong> — The idea that quietly makes everyone's workday better</li>
+                <li><strong>Crowd Favorite Award</strong> — The people's champion, decided by community vote</li>
+                <li><strong>J.A.R.V.I.S.'s Pick</strong> — The AI judge's favorite, based on build quality and Copilot telemetry</li>
+            </ul>
+
+            <p class="main-text" style="margin-top: 20px;">
+                Every project is automatically entered into <strong>all six categories</strong> — there's no category to pick on the form.
+            </p>
+
+            <p class="main-text" style="margin-top: 30px;">
+                <strong>What we want to see:</strong> thoughtful AI work that feels relevant to ORE, well executed, and worth celebrating in front of the wider team. New or recently built work is perfect; already-running production systems may also be considered on a case-by-case basis, provided the AI contribution is genuinely your team's own.
+            </p>
+
+            <center>
+                <a href="https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award" class="cta-button">Submit Your Project</a>
+            </center>
+
+            <div class="highlight-box">
+                <h3>What to Submit</h3>
+                <ul style="padding-left: 20px;">
+                    <li>A completed <strong>SUBMISSION.md</strong> — the problem, your approach, technologies/models, setup, and value</li>
+                    <li>The working project — source code, or a hosted demo / recording if it can't be run locally</li>
+                    <li>Screenshots or a short demo wherever they help tell the story</li>
+                    <li>Names of contributors (individual or team)</li>
+                    <li>Your untouched, auto-generated Copilot usage files</li>
+                </ul>
+            </div>
+
+            <p class="main-text">
+                <strong>Questions?</strong> Check out our full <a href="https://app.pages.dx1.lseg.com/-/app-51172/qs/ore-ai-innovation-award/-/jobs/228490675/artifacts/public/rules.html" style="color: #020F98; text-decoration: none; font-weight: 600;">rules & FAQ</a> or reach out to us at <a href="mailto:alexis.david@lseg.com" style="color: #020F98; text-decoration: none; font-weight: 600;">alexis.david@lseg.com</a>.
+            </p>
+
+            <p class="main-text">
+                We look forward to seeing what the community builds.
+            </p>
+
+            <p style="margin-top: 30px; font-size: 14px; color: #4A4A4A;">
+                Best regards,<br>
+                <strong>The ORE AI Innovation Award Team</strong>
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p class="footer-text"><strong>ORE AI Innovation Award 2026</strong></p>
+            <p class="footer-text">September 2026</p>
+            
+            <div class="footer-divider"></div>
+
+            <div class="social-links">
+                <a href="#" title="GitHub">📱</a>
+                <a href="#" title="LinkedIn">💼</a>
+                <a href="#" title="Twitter">🐦</a>
+            </div>
+
+            <p class="footer-text">
+                © 2026 ORE AI Awards. All rights reserved.<br>
+                <a href="#" style="color: #020F98; text-decoration: none;">Privacy Policy</a> |
+                <a href="#" style="color: #020F98; text-decoration: none;">Terms & Conditions</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

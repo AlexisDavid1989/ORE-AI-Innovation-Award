@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ORE Axon radial maze core concept">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8C089"/>
+      <stop offset="100%" stop-color="#8F7844"/>
+    </linearGradient>
+    <clipPath id="axonCoreClip">
+      <circle cx="210" cy="250" r="76"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1400" height="520" fill="#0A0A0A"/>
+
+  <circle cx="210" cy="250" r="112" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+  <line x1="285.1" y1="187.0" x2="306.5" y2="169.0" stroke="#0A0A0A" stroke-width="24"/>
+  <line x1="113.5" y1="331.0" x2="134.9" y2="313.0" stroke="#0A0A0A" stroke-width="24"/>
+
+  <circle cx="210" cy="250" r="132" fill="none" stroke="url(#ink)" stroke-width="1.6" opacity="0.52"/>
+  <circle cx="210" cy="250" r="148" fill="none" stroke="url(#ink)" stroke-width="0.9" opacity="0.18"/>
+
+  <g clip-path="url(#axonCoreClip)">
+    <circle cx="210" cy="250" r="70" fill="none" stroke="url(#ink)" stroke-width="7" opacity="0.24"/>
+
+    <!-- Radial maze arcs inspired by concentric circular chip routing -->
+    <path d="M 130 250 A 80 80 0 0 1 286 214" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 134 270 A 76 76 0 0 0 286 236" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 138 286 A 72 72 0 0 1 278 256" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 146 300 A 66 66 0 0 0 274 272" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 154 310 A 58 58 0 0 1 264 284" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 166 318 A 48 48 0 0 0 254 300" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 178 324 A 36 36 0 0 1 242 314" fill="none" stroke="url(#ink)" stroke-width="2.8" stroke-linecap="round"/>
+
+    <!-- Orthogonal jump connectors to add maze logic without a dominant central line -->
+    <path d="M 162 292 L 176 292 L 176 274" fill="none" stroke="url(#gold)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 188 320 L 188 302 L 208 302" fill="none" stroke="url(#gold)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 228 312 L 228 294 L 248 294" fill="none" stroke="url(#gold)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 240 272 L 256 272 L 256 254" fill="none" stroke="url(#gold)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Pin nodes -->
+    <circle cx="130" cy="250" r="2.4" fill="url(#ink)"/>
+    <circle cx="286" cy="214" r="2.4" fill="url(#ink)"/>
+    <circle cx="134" cy="270" r="2.4" fill="url(#ink)"/>
+    <circle cx="286" cy="236" r="2.4" fill="url(#ink)"/>
+    <circle cx="138" cy="286" r="2.4" fill="url(#ink)"/>
+    <circle cx="278" cy="256" r="2.4" fill="url(#ink)"/>
+    <circle cx="146" cy="300" r="2.4" fill="url(#ink)"/>
+    <circle cx="274" cy="272" r="2.4" fill="url(#ink)"/>
+    <circle cx="154" cy="310" r="2.4" fill="url(#ink)"/>
+    <circle cx="264" cy="284" r="2.4" fill="url(#ink)"/>
+    <circle cx="166" cy="318" r="2.4" fill="url(#ink)"/>
+    <circle cx="254" cy="300" r="2.4" fill="url(#ink)"/>
+    <circle cx="178" cy="324" r="2.4" fill="url(#ink)"/>
+    <circle cx="242" cy="314" r="2.4" fill="url(#ink)"/>
+
+    <circle cx="176" cy="274" r="3" fill="url(#gold)"/>
+    <circle cx="208" cy="302" r="3" fill="url(#gold)"/>
+    <circle cx="228" cy="294" r="3" fill="url(#gold)"/>
+    <circle cx="256" cy="254" r="3" fill="url(#gold)"/>
+  </g>
+
+  <text x="390" y="220" fill="url(#gold)" font-size="92" letter-spacing="7" font-family="Cinzel, 'Times New Roman', serif">ORE AXON</text>
+  <text x="390" y="302" fill="url(#gold)" font-size="58" letter-spacing="6" font-family="Cinzel, 'Times New Roman', serif">RADIAL MAZE CORE</text>
+  <text x="392" y="348" fill="#B9A169" font-size="24" letter-spacing="4" font-family="Inter, 'Segoe UI', sans-serif">CONCENTRIC CHIP-LABYRINTH INSIDE THE ORE RING</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ORE AI Innovation Award concept 07 spotlight vega">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="520" fill="#0A0A0A"/>
+
+  <circle cx="210" cy="250" r="112" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+  <rect x="292" y="165" width="48" height="170" fill="#0A0A0A" transform="rotate(28 316 250)"/>
+
+  <!-- Spotlight -->
+  <path d="M 210 126 L 148 318 L 272 318 Z" fill="url(#beam)"/>
+
+  <!-- Vega / volatility wave -->
+  <path d="M 164 272 C 180 242, 198 244, 210 272 C 222 300, 240 302, 256 272" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="210" cy="272" r="4" fill="#8B7FD9"/>
+
+  <text x="390" y="220" fill="url(#gold)" font-size="92" letter-spacing="7" font-family="Cinzel, 'Times New Roman', serif">ORE AI</text>
+  <text x="390" y="302" fill="url(#gold)" font-size="58" letter-spacing="6" font-family="Cinzel, 'Times New Roman', serif">INNOVATION AWARD</text>
+  <text x="392" y="348" fill="#B9A169" font-size="24" letter-spacing="4" font-family="Inter, 'Segoe UI', sans-serif">VEGA EDITION - VOLATILITY SIGNAL</text>
+</svg>

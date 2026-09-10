@@ -1,0 +1,8 @@
+<svg viewBox="0 0 720 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Workday Hero Award</title>
+  <desc id="description">Award for the entry that most improves internal day-to-day work.</desc>
+  <defs><filter id="shadow" x="-12%" y="-15%" width="124%" height="135%"><feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#010469" flood-opacity=".12"/></filter></defs>
+  <rect width="720" height="450" fill="#F4F8FB"/><rect x="28" y="24" width="664" height="402" rx="14" fill="#FFFFFF" stroke="#E6E6E6" stroke-width="2" filter="url(#shadow)"/>
+  <text x="64" y="112" font-family="Segoe UI Emoji, Segoe UI Symbol, sans-serif" font-size="40">🦸</text><text x="64" y="180" font-family="Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#010469">Workday Hero</text>
+  <text x="64" y="226" font-family="Segoe UI, sans-serif" font-size="22" fill="#464646">The idea that quietly makes everyone's</text><text x="64" y="258" font-family="Segoe UI, sans-serif" font-size="22" fill="#464646">workday better.</text><text x="64" y="376" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="1.5" fill="#029BE3">JUDGED BY PANEL</text>
+</svg>

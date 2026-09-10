@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1100 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">ORE AI Innovation Award 2026</title>
+  <desc id="description">Compass instrument mark alongside the ORE AI Innovation Award 2026 title.</desc>
+  <defs>
+    <linearGradient id="oreGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE8A8"/>
+      <stop offset="52%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A6A1E"/>
+    </linearGradient>
+    <linearGradient id="oreInk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C7A86A"/>
+      <stop offset="100%" stop-color="#856A36"/>
+    </linearGradient>
+  </defs>
+
+  <svg x="29.2" y="11.2" width="165.6" height="165.6" viewBox="-180 -180 360 360" aria-hidden="true">
+    <defs>
+      <mask id="ringCuts" maskUnits="userSpaceOnUse" x="-180" y="-180" width="360" height="360">
+        <rect x="-180" y="-180" width="360" height="360" fill="white"/>
+        <line x1="75.1" y1="-63" x2="96.5" y2="-81" stroke="black" stroke-width="24"/>
+        <line x1="-96.5" y1="81" x2="-75.1" y2="63" stroke="black" stroke-width="24"/>
+      </mask>
+    </defs>
+    <circle cx="0" cy="0" r="112" fill="none" stroke="url(#oreGold)" stroke-width="20" stroke-linecap="round" mask="url(#ringCuts)"/>
+    <circle cx="0" cy="0" r="132" fill="none" stroke="url(#oreInk)" stroke-width="1.6" opacity=".52"/>
+    <circle cx="0" cy="0" r="148" fill="none" stroke="url(#oreInk)" stroke-width=".9" opacity=".18"/>
+    <path d="M -156 0 L -138 -6 L -138 6 Z" fill="url(#oreInk)" opacity=".58" transform="rotate(-40)"/>
+    <path d="M 156 0 L 138 -6 L 138 6 Z" fill="url(#oreInk)" opacity=".82" transform="rotate(-40)"/>
+    <path d="M -156 0 L -138 -6 L -138 6 Z" fill="url(#oreInk)" opacity=".58" transform="rotate(50)"/>
+    <path d="M 156 0 L 138 -6 L 138 6 Z" fill="url(#oreInk)" opacity=".82" transform="rotate(50)"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#oreInk)" stroke-width="8" opacity=".38"/>
+    <circle cx="0" cy="0" r="88" fill="none" stroke="url(#oreInk)" stroke-width=".95" opacity=".17"/>
+    <path d="M 0 -62 L 9 0 L 0 62 L -9 0 Z" fill="none" stroke="url(#oreInk)" stroke-width="1.75" opacity=".36"/>
+    <path d="M -62 0 L 0 9 L 62 0 L 0 -9 Z" fill="none" stroke="url(#oreInk)" stroke-width="1.75" opacity=".29"/>
+    <circle cx="0" cy="0" r="6" fill="url(#oreInk)" opacity=".44"/>
+    <line x1="-105" y1="88" x2="105" y2="-88" stroke="url(#oreGold)" stroke-width=".8" stroke-linecap="round"/>
+  </svg>
+
+  <text x="230" y="82" font-family="Cinzel, 'Times New Roman', serif" font-size="40" font-weight="700" letter-spacing="2.1" fill="#010469">ORE AI INNOVATION AWARD 2026</text>
+  <line x1="230" y1="104" x2="1040" y2="104" stroke="#D4AF37" stroke-width="2"/>
+  <text x="230" y="138" font-family="'Segoe UI', sans-serif" font-size="26" font-weight="600" letter-spacing=".8" fill="#464646">BEST AI CREATION FOR ORE | SEPTEMBER 2026</text>
+</svg>

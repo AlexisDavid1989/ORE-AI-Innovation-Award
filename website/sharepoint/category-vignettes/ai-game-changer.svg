@@ -1,0 +1,11 @@
+<svg viewBox="0 0 720 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">AI Game Changer Award</title>
+  <desc id="description">The master award for the strongest all-around ORE AI Innovation Award entry.</desc>
+  <defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF8DE"/><stop offset=".62" stop-color="#FFFFFF"/></linearGradient><linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBDD65"/><stop offset="1" stop-color="#F7C593"/></linearGradient><filter id="shadow" x="-12%" y="-15%" width="124%" height="135%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#010469" flood-opacity=".18"/></filter></defs>
+  <rect width="720" height="450" fill="#F4F8FB"/>
+  <rect x="28" y="24" width="664" height="402" rx="14" fill="url(#card)" stroke="#FBDD65" stroke-width="3" filter="url(#shadow)"/>
+  <g transform="translate(571 24) rotate(45)"><rect x="-4" y="-50" width="190" height="44" fill="url(#ribbon)"/><text x="21" y="-20" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#010469">MAIN AWARD</text></g>
+  <text x="64" y="112" font-family="Segoe UI Emoji, Segoe UI Symbol, sans-serif" font-size="42">🏆</text><text x="64" y="180" font-family="Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#010469">AI Game Changer</text>
+  <text x="64" y="226" font-family="Segoe UI, sans-serif" font-size="22" fill="#464646">The strongest all-around entry - the one</text><text x="64" y="258" font-family="Segoe UI, sans-serif" font-size="22" fill="#464646">that does everything well. This is the big one.</text>
+  <text x="64" y="376" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F7C593">JUDGED BY PANEL</text>
+</svg>

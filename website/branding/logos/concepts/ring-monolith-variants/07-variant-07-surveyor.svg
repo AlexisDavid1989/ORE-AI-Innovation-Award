@@ -1,0 +1,72 @@
+﻿<svg viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ORE AI Innovation Award variant-07-surveyor">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8C089"/>
+      <stop offset="100%" stop-color="#8F7844"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="520" fill="#0A0A0A"/>
+
+  <circle cx="210" cy="250" r="112" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+  <rect x="292" y="165" width="48" height="170" fill="#0A0A0A" transform="rotate(28 316 250)"/>
+  <rect x="78" y="165" width="48" height="170" fill="#0A0A0A" transform="rotate(28 102 250)"/>
+
+  <circle cx="210" cy="250" r="132" fill="none" stroke="url(#ink)" stroke-width="1.6" opacity="0.56"/>
+  <line x1="342.00" y1="250.00" x2="356.00" y2="250.00" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="343.03" y1="278.28" x2="348.90" y2="279.52" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="330.59" y1="303.69" x2="343.38" y2="309.38" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="320.03" y1="329.94" x2="324.88" y2="333.47" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="298.33" y1="348.10" x2="307.69" y2="358.50" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="278.00" y1="367.78" x2="281.00" y2="372.98" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="250.79" y1="375.54" x2="255.12" y2="388.85" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="224.22" y1="385.25" x2="224.84" y2="391.22" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="196.20" y1="381.28" x2="194.74" y2="395.20" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="167.97" y1="379.34" x2="166.12" y2="385.05" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="144.00" y1="364.32" x2="137.00" y2="376.44" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="119.00" y1="351.07" x2="114.98" y2="355.53" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="103.21" y1="327.59" x2="91.88" y2="335.82" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="85.76" y1="305.32" x2="80.28" y2="307.76" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="80.88" y1="277.44" x2="67.19" y2="280.36" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="74.00" y1="250.00" x2="68.00" y2="250.00" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="80.88" y1="222.56" x2="67.19" y2="219.64" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="85.76" y1="194.68" x2="80.28" y2="192.24" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="103.21" y1="172.41" x2="91.88" y2="164.18" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="119.00" y1="148.93" x2="114.98" y2="144.47" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="144.00" y1="135.68" x2="137.00" y2="123.56" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="167.97" y1="120.66" x2="166.12" y2="114.95" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="196.20" y1="118.72" x2="194.74" y2="104.80" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="224.22" y1="114.75" x2="224.84" y2="108.78" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="250.79" y1="124.46" x2="255.12" y2="111.15" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="278.00" y1="132.22" x2="281.00" y2="127.02" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="298.33" y1="151.90" x2="307.69" y2="141.50" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="320.03" y1="170.06" x2="324.88" y2="166.53" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+  <line x1="330.59" y1="196.31" x2="343.38" y2="190.62" stroke="url(#ink)" stroke-width="1.7" opacity="0.72"/>
+  <line x1="343.03" y1="221.72" x2="348.90" y2="220.48" stroke="url(#ink)" stroke-width="1.0" opacity="0.45"/>
+
+  <path d="M 146 322 L 210 172 L 274 322 Z" fill="none" stroke="url(#ink)" stroke-width="1.1" opacity="0.52"/><line x1="210" y1="172" x2="210" y2="322" stroke="url(#ink)" stroke-width="1.0" opacity="0.44"/><line x1="164" y1="282" x2="256" y2="282" stroke="url(#ink)" stroke-width="1.0" opacity="0.44"/>
+
+  <rect x="198" y="138" width="24" height="224" fill="#0A0A0A"/>
+  <rect x="203" y="153" width="14" height="194" fill="url(#gold)" opacity="0.96"/>
+  <line x1="201" y1="176" x2="194" y2="176" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="201" y1="206" x2="196" y2="206" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="201" y1="236" x2="194" y2="236" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="201" y1="266" x2="196" y2="266" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="201" y1="296" x2="194" y2="296" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="201" y1="326" x2="196" y2="326" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="219" y1="176" x2="226" y2="176" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="219" y1="206" x2="224" y2="206" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="219" y1="236" x2="226" y2="236" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="219" y1="266" x2="224" y2="266" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="219" y1="296" x2="226" y2="296" stroke="url(#ink)" stroke-width="1.8"/>
+  <line x1="219" y1="326" x2="224" y2="326" stroke="url(#ink)" stroke-width="1.2"/>
+  <path d="M 210 138 L 205 150 L 215 150 Z" fill="url(#ink)" opacity="0.9"/>
+
+  <text x="390" y="220" fill="url(#gold)" font-size="92" letter-spacing="7" font-family="Cinzel, 'Times New Roman', serif">ORE AI</text>
+  <text x="390" y="302" fill="url(#gold)" font-size="58" letter-spacing="6" font-family="Cinzel, 'Times New Roman', serif">INNOVATION AWARD</text>
+  <text x="392" y="348" fill="#B9A169" font-size="24" letter-spacing="4" font-family="Inter, 'Segoe UI', sans-serif">SURVEYOR TRIANGULATION</text>
+</svg>
