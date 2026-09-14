@@ -68,7 +68,7 @@ Create two white one-column SharePoint sections titled "How token sources are ca
 
 ## 1. Grab the submission kit
 
-Clone the [GitLab repository](https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award) and create your own branch. It includes the standard submission form and automatic Copilot usage tracking.
+Clone the [GitLab repository](https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award) and create your own branch. It includes the standard submission form and automatic Copilot usage tracking.
 
 ## 2. Build your project
 
@@ -84,7 +84,7 @@ Add the auto-generated Copilot files unchanged: `COPILOT_USAGE_REPORT.md`, `usag
 
 ## 5. Submit before the deadline
 
-Push your project to its own branch in the [GitLab repository](https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award), and upload any demo video to [the award video folder](DEMO_VIDEO_UPLOAD_LINK), before **October 7, 2026, 23:59 UK time**.
+Push your project to its own branch in the [GitLab repository](https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award), and upload any demo video to [the award video folder](DEMO_VIDEO_UPLOAD_LINK), before **October 7, 2026, 23:59 UK time**.
 
 ---
 
@@ -177,4 +177,4 @@ Each request receives one category based on its tool IDs. The category receives 
 
 In short: tracking is a local, zero-cost tally of where token counts went and which tools were used. It cannot see, keep, or share the text of your Copilot conversation. Leave the generated files untouched because their integrity is part of judging.
 
-**Button:** Submit Your Project -> https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award
+**Button:** Submit Your Project -> https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award

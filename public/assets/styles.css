@@ -158,7 +158,16 @@ section.block.alt { background: var(--gray-light); }
 .card h3 { font-size: 20px; margin-bottom: 8px; }
 .card p { font-size: 15px; }
 .card .tag { display: inline-block; margin-top: 14px; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--purple); }
-.card.jarvis { border-color: var(--gold); background: linear-gradient(180deg, #fffaf0, #ffffff); }
+.card.jarvis {
+  border-color: var(--gold); background: linear-gradient(180deg, #fffaf0, #ffffff);
+  position: relative; overflow: hidden;
+}
+.card.jarvis::before {
+  content: "Optional"; position: absolute; top: 16px; right: -34px;
+  background: linear-gradient(135deg, #e7f1ff, #d4e7ff); color: var(--blue);
+  font-family: 'Proxima Nova', 'ProximaNova', 'Avenir Next', 'Segoe UI', sans-serif; font-weight: 700; font-size: 11px; letter-spacing: 1px;
+  padding: 5px 40px; transform: rotate(45deg); box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
 
 /* Crowd Favorite — red treatment mirroring J.A.R.V.I.S. */
 .card.crowd { border-color: var(--lseg-pink); background: linear-gradient(180deg, #fff1f1, #ffffff); }

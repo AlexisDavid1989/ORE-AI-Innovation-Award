@@ -18,12 +18,12 @@
 
 Paste one prompt at a time into SharePoint's AI section generator. After it creates each section, replace any generated links with the exact destinations shown. Do not ask it to add a countdown yet.
 
-**Shared constraints:** Use `https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award` for every `Submit Your Project` action. Do not add a countdown.
+**Shared constraints:** Use `https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award` for every `Submit Your Project` action. Do not add a countdown.
 
 ### 1. Hero and introduction
 
 ```text
-Create a full-width award landing-page hero for "ORE AI Innovation Award 2026". Use a dark midnight-blue background, white text, and restrained gold accents. Place the existing horizontal ORE AI Innovation Award 2026 logo above the content, centered, at approximately 550 px wide without cropping. Add the small all-caps eyebrow "ORE AI'S 10-YEAR ANNIVERSARY" in a gold or sky-blue accent. Add the large heading "Build the Best AI Creation for ORE". Add this centered body copy: "An award celebrating original, useful, and genuinely impressive AI work - made by the ORE community, for the ORE community. Got an idea? This is your stage." Add two buttons: a prominent filled "Submit Your Project" button linking to https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award, and a secondary outline "See How It Works" button linking to the How to Enter SharePoint page. Under the buttons, add three evenly spaced statistics: "Sept 14 / Applications open", "Sept 30 / Applications close", and "6 / Award categories". Keep all text centered and do not add a countdown.
+Create a full-width award landing-page hero for "ORE AI Innovation Award 2026". Use a dark midnight-blue background, white text, and restrained gold accents. Place the existing horizontal ORE AI Innovation Award 2026 logo above the content, centered, at approximately 550 px wide without cropping. Add the small all-caps eyebrow "ORE AI'S 10-YEAR ANNIVERSARY" in a gold or sky-blue accent. Add the large heading "Build the Best AI Creation for ORE". Add this centered body copy: "An award celebrating original, useful, and genuinely impressive AI work - made by the ORE community, for the ORE community. Got an idea? This is your stage." Add two buttons: a prominent filled "Submit Your Project" button linking to https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award, and a secondary outline "See How It Works" button linking to the How to Enter SharePoint page. Under the buttons, add three evenly spaced statistics: "Sept 14 / Applications open", "Sept 30 / Applications close", and "6 / Award categories". Keep all text centered and do not add a countdown.
 ```
 
 ### 2. Award values
@@ -58,7 +58,7 @@ Create a compact full-width final call-to-action section with a midnight-blue ba
 
 An award celebrating original, useful, and genuinely impressive AI work - made by the ORE community, for the ORE community. Got an idea? This is your stage.
 
-**Button:** Submit Your Project -> https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award
+**Button:** Submit Your Project -> https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award
 
 **Button:** See How It Works -> `how-to-enter`
 
@@ -66,7 +66,6 @@ An award celebrating original, useful, and genuinely impressive AI work - made b
 | --- | --- | --- |
 | **Sept 14**<br>Applications open | **Sept 30**<br>Applications close | **6**<br>Award categories |
 
----
 
 ## Your AI ideas deserve a spotlight
 
@@ -76,7 +75,6 @@ Whether you've built a slick customer experience, a clever internal time-saver, 
 | --- | --- | --- |
 | Fresh thinking and creative leaps. We love an idea nobody saw coming. | Real value for ORE - solving a genuine problem for a real audience. | Thoughtfully executed and easy to understand, demo, and run. |
 
----
 
 ## Award Categories
 
@@ -92,7 +90,6 @@ Every project is automatically entered into all six categories. No category-pick
 | --- | --- | --- |
 | The idea that quietly makes everyone's workday better.<br><br>*Judged by panel* | The people's champion, decided by community vote.<br><br>*Community vote* | The AI judge's favorite, based on build quality and how smartly AI tooling was used.<br><br>*AI judge* |
 
----
 
 ## Key Dates
 
@@ -105,7 +102,6 @@ Every project is automatically entered into all six categories. No category-pick
 | October 2026 | Judging and Crowd Favorite voting | The panel reviews entries and the community casts its votes. |
 | Sometime in November 2026 | Winners announced | Celebrated live at the ORE 10-year anniversary. |
 
----
 
 ## Ready to enter?
 

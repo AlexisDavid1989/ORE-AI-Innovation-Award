@@ -29,7 +29,7 @@ Add the following links to the site's top navigation. Put **Submit Your Project*
 | Key Dates | Site root `#key-dates` |
 | How to Enter | `how-to-enter` |
 | Rules & FAQ | `rules-and-faq` |
-| Submit Your Project | `https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award` |
+| Submit Your Project | `https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award` |
 
 For the two home-page anchors, use a Text web part heading named exactly `Award Categories` and `Key Dates`, then copy its SharePoint-generated anchor link after publishing once. Replace the provisional destinations above with those copied links.
 

@@ -21,9 +21,9 @@ The ORE AI Innovation Award 2026 celebrates the best AI creation built for ORE -
 2. Mark your calendar
 Create a two-column table headed "Milestone" and "Date" with these rows:
 Applications open | September 14, 2026
-Applications close | October 11, 2026, 23:59 UK time
-Judging period | October 2026
-Crowd Favorite voting | October 2026
+Applications close | October 18, 2026, 23:59 UK time
+Judging period | 19–31 October 2026
+Crowd Favorite voting | 19–31 October 2026
 Winners announced | Sometime in November 2026, as part of ORE's 10-year anniversary celebrations
 
 3. Who can enter
@@ -37,7 +37,7 @@ Winners announced | Sometime in November 2026, as part of ORE's 10-year annivers
 4. How to enter
 Six steps from idea to submission. Fill in the form, grab the kit, build the project, complete SUBMISSION.md, upload the project, and add your video.
 1. Fill in the form: Fill in the online form and let us know you're in the game. Tell us what you're going to build, who's with you, the name of the project, and the data used. We will then provide you access to the GitLab repository.
-2. Grab the submission kit: Clone the GitLab repository at https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award and create your own branch. It includes the standard submission form and automatic Copilot usage tracking. You can also grab the submission kit from Documents / Submission Kit.
+2. Grab the submission kit: Clone the GitLab repository at https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award and create your own branch. It includes the standard submission form and automatic Copilot usage tracking. You can also grab the submission kit from Documents / Submission Kit.
 3. Build your project: Make something AI-centered and relevant to ORE. Everyone uses GitHub Copilot for this award, and usage is captured automatically, so there is nothing to track by hand.
 4. Fill in SUBMISSION.md: Complete the standard form with the problem, your approach, technologies and models used, setup instructions, the value it delivers, and who is behind it.
 5. Upload your project: Push your project to its own branch in the GitLab repository, and don't forget to add the auto-generated Copilot files unchanged: COPILOT_USAGE_REPORT.md, usage-summary.json, and prompt-answer-log.jsonl.
@@ -77,7 +77,7 @@ J.A.R.V.I.S. is our AI judge, and it has a soft spot for projects that are both 
 - Copilot is part of the entry. Every participant uses it, and the untouched telemetry files are included with every submission.
 
 9. Crowd Favorite voting
-- The winner is crowned by community vote during October 2026.
+- The winner is crowned by community vote during 19–31 October 2026.
 - Voting is one vote per person, and rallying support for your project is fair game (within reason - keep it friendly).
 - Ballot-stuffing (duplicate accounts, bots, and other creative schemes) is an instant exit. Win hearts, not scripts.
 

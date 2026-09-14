@@ -36,7 +36,7 @@ Winners announced | Sometime in November 2026, as part of ORE's 10-year annivers
 
 4. How to enter
 Five steps from idea to submission. Build your project, tell us about it, and let the automatic Copilot tracking handle the rest.
-1. Grab the submission kit: Clone the GitLab repository at https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award and create your own branch. It includes the standard submission form and automatic Copilot usage tracking.
+1. Grab the submission kit: Clone the GitLab repository at https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award and create your own branch. It includes the standard submission form and automatic Copilot usage tracking.
 2. Build your project: Make something AI-centered and relevant to ORE. Everyone uses GitHub Copilot for this award, and usage is captured automatically, so there is nothing to track by hand.
 3. Fill in SUBMISSION.md: Complete the standard form with the problem, your approach, technologies and models used, setup instructions, the value it delivers, and who is behind it.
 4. Include your Copilot usage files: Add the auto-generated Copilot files unchanged: COPILOT_USAGE_REPORT.md, usage-summary.json, and prompt-answer-log.jsonl.

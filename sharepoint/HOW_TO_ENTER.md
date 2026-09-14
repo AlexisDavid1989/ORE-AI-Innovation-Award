@@ -72,7 +72,7 @@ Fill in the online form and let us know you're in the game. Tell us what you're 
 
 ## 2. Grab the submission kit
 
-Clone the [GitLab repository](https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award) and create your own branch. It includes the standard submission form and automatic Copilot usage tracking. You can also grab the submission kit from Documents / Submission Kit.
+Clone the [GitLab repository](https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award) and create your own branch. It includes the standard submission form and automatic Copilot usage tracking. You can also grab the submission kit from Documents / Submission Kit.
 
 ## 3. Build your project
 
@@ -84,7 +84,7 @@ Complete the standard form: the problem, your approach, technologies and models 
 
 ## 5. Upload your project
 
-Push your project to its own branch in the [GitLab repository](https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award), and don't forget to add the auto-generated Copilot files unchanged: `COPILOT_USAGE_REPORT.md`, `usage-summary.json`, and `prompt-answer-log.jsonl`.
+Push your project to its own branch in the [GitLab repository](https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award), and don't forget to add the auto-generated Copilot files unchanged: `COPILOT_USAGE_REPORT.md`, `usage-summary.json`, and `prompt-answer-log.jsonl`.
 
 ## 6. Upload your video
 
@@ -179,4 +179,4 @@ Each request receives one category based on its tool IDs. The category receives 
 
 In short: tracking is a local, zero-cost tally of where token counts went and which tools were used. It cannot see, keep, or share the text of your Copilot conversation. Leave the generated files untouched because their integrity is part of judging.
 
-**Button:** Submit Your Project -> https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award
+**Button:** Submit Your Project -> https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award

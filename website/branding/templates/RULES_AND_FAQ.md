@@ -44,11 +44,11 @@ announced sometime in November. No pressure. (Okay, a little pressure — the fu
 
 **Five steps from idea to submission.** Build your project, tell us about it, and let the automatic Copilot tracking handle the rest.
 
-1. **Grab the submission kit:** Clone the [GitLab repository](https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award) and create your own branch. It includes the standard submission form and automatic Copilot usage tracking.
+1. **Grab the submission kit:** Clone the [GitLab repository](https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award) and create your own branch. It includes the standard submission form and automatic Copilot usage tracking.
 2. **Build your project:** Make something AI-centered and relevant to ORE. Everyone uses GitHub Copilot for this award, and usage is captured automatically, so there is nothing to track by hand.
 3. **Fill in `SUBMISSION.md`:** Complete the standard form: the problem, your approach, technologies and models used, setup instructions, the value it delivers, and who is behind it.
 4. **Include your Copilot usage files:** Add the auto-generated Copilot files unchanged: `COPILOT_USAGE_REPORT.md`, `usage-summary.json`, and `prompt-answer-log.jsonl`.
-5. **Submit before the deadline:** Push your project to its own branch in the [GitLab repository](https://gitlab.dx1.lseg.com/app/app-51172/qs/ore-ai-innovation-award), and upload any demo video to the award SharePoint page ([SHAREPOINT_LINK]), before **October 7, 2026, 23:59 UK time**.
+5. **Submit before the deadline:** Push your project to its own branch in the [GitLab repository](https://gitlab.dx1.lseg.com/Alexis.David/ore-ai-innovation-award), and upload any demo video to the award SharePoint page ([SHAREPOINT_LINK]), before **October 7, 2026, 23:59 UK time**.
 
 Prefer a walkthrough? See the How to Enter page.
 
