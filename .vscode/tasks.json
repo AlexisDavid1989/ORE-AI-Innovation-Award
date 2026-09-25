@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Generate Copilot Usage Report",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/telemetry/generate-copilot-usage-report.ps1",
+        "-WorkspacePath",
+        "${workspaceFolder}",
+        "-OutJson",
+        "${workspaceFolder}/telemetry/output/usage-summary.json",
+        "-OutMarkdown",
+        "${workspaceFolder}/telemetry/output/COPILOT_USAGE_REPORT.md",
+        "-OutTranscript",
+        "${workspaceFolder}/telemetry/output/prompt-answer-log.jsonl"
+      ],
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    }
+  ]
+}
